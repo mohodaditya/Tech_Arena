@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #484848;
+  background-color: #FFF8F6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 248, 246, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #FF5A5F, #FF8E53);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #E04E53, #E07A47);
+}
+
+/* Smooth animations */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Gradient text animation */
+.gradient-text {
+  background: linear-gradient(-45deg, #FF5A5F, #FF8E53, #00A699, #00C9A7);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Glass morphism effect */
+.glass {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* Button hover effects */
+.btn-gradient {
+  background: linear-gradient(135deg, #FF5A5F 0%, #FF8E53 100%);
+  box-shadow: 0 4px 15px 0 rgba(255, 90, 95, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px 0 rgba(255, 90, 95, 0.3);
+}
+
+/* Loading spinner */
+.spinner {
+  border: 3px solid rgba(255, 90, 95, 0.3);
+  border-radius: 50%;
+  border-top: 3px solid #FF5A5F;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles */
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: #FF5A5F;
+  ring-opacity: 50%;
+}
+
+/* Custom selection */
+::selection {
+  background-color: rgba(255, 90, 95, 0.2);
+  color: #222222;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .glass {
+    border-radius: 8px;
+  }
+  
+  body {
+    padding-bottom: 80px; /* Space for bottom dock */
+  }
+}
+
+/* Animation utilities */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-fadeInScale {
+  animation: fadeInScale 0.6s ease-out;
+}
+
+/* Custom shadows */
+.shadow-coral {
+  box-shadow: 0 10px 25px -5px rgba(255, 90, 95, 0.2), 0 10px 10px -5px rgba(255, 90, 95, 0.04);
+}
+
+.shadow-teal {
+  box-shadow: 0 10px 25px -5px rgba(0, 166, 153, 0.2), 0 10px 10px -5px rgba(0, 166, 153, 0.04);
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1);
+}
