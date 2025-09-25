@@ -12,7 +12,8 @@ function App() {
   return (
     <UserProvider>
       <div className="min-h-screen bg-[#FFF8F6]">
-        <Router>
+        {/* ✅ Added basename so React Router works on GitHub Pages */}
+        <Router basename="/Tech_Arena">
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
