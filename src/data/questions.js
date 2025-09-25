@@ -484,7 +484,57 @@ export const questions = {
       answer: "NLP models",
       explanation: "Chatbots rely on Natural Language Processing (NLP) models to understand and respond to human text.",
       category: "AI"
-    }
+    },
+    {
+      question: "What is reinforcement learning?",
+      options: ["Learning from rewards and penalties", "Learning from labeled data", "Learning without labels", "Supervised learning"],
+      answer: "Learning from rewards and penalties",
+      explanation: "Reinforcement Learning is an AI technique where agents learn optimal actions by maximizing cumulative reward.",
+      category: "AI"
+    },
+    {
+      question: "Which AI concept mimics human decision making?",
+      options: ["Expert Systems", "Machine Learning", "Computer Vision", "Robotics"],
+      answer: "Expert Systems",
+      explanation: "Expert Systems simulate human reasoning to make decisions using a knowledge base and inference rules.",
+      category: "AI"
+    },
+    {
+      question: "Which AI type learns from experience and adapts over time?",
+      options: ["Machine Learning", "Expert Systems", "Robotics", "Rule-Based Systems"],
+      answer: "Machine Learning",
+      explanation: "Machine Learning algorithms improve their performance by learning from data over time.",
+      category: "AI"
+    },
+    {
+      question: "Which AI technique is used for facial recognition?",
+      options: ["Computer Vision", "NLP", "Robotics", "Reinforcement Learning"],
+      answer: "Computer Vision",
+      explanation: "Computer Vision analyzes images and videos to detect and recognize faces.",
+      category: "AI"
+    },
+    {
+      question: "Which AI approach uses human-defined rules for decision-making?",
+      options: ["Rule-Based Systems", "Neural Networks", "Reinforcement Learning", "Genetic Algorithms"],
+      answer: "Rule-Based Systems",
+      explanation: "Rule-Based AI systems rely on predefined rules to make decisions and solve problems.",
+      category: "AI"
+    },
+    {
+      question: "Which AI concept is inspired by evolution and natural selection?",
+      options: ["Genetic Algorithms", "Decision Trees", "Clustering", "Neural Networks"],
+      answer: "Genetic Algorithms",
+      explanation: "Genetic Algorithms use selection, crossover, and mutation to optimize solutions.",
+      category: "AI"
+    },
+    {
+      question: "Which AI type is used for autonomous vehicles?",
+      options: ["Machine Learning", "Expert Systems", "Computer Vision", "All of the above"],
+      answer: "All of the above",
+      explanation: "Autonomous vehicles use ML, CV, and rule-based logic to navigate and make decisions.",
+      category: "AI"
+    },
+
   ]
 };
 
