@@ -195,7 +195,7 @@ const Learn = () => {
           description: 'Comprehensive AI and Machine Learning course for beginners',
           icon: '🎯',
           type: 'Video Content',
-          url: 'https://www.youtube.com/@TheCuttingEdgeSchool',
+          url: 'https://youtu.be/6LRrGJoR4XU?si=3ZqPKQ1o0gzkuMIQ',
           difficulty: 'Beginner'
         },
         {
@@ -203,7 +203,7 @@ const Learn = () => {
           description: 'Latest trends and developments in AI technology',
           icon: '🚀',
           type: 'Educational Video',
-          url: 'https://www.youtube.com/results?search_query=AI+in+2025+explained',
+          url: 'https://youtu.be/bJE4KFwm-kk?si=XhQfU_kUllAPvDh7',
           difficulty: 'Beginner'
         }
       ]
@@ -218,7 +218,7 @@ const Learn = () => {
           description: 'Complete UI/UX design course for beginners and professionals',
           icon: '🎨',
           type: 'Video Course',
-          url: 'https://www.youtube.com/@TheCuttingEdgeSchool',
+          url: 'https://youtu.be/POI-M-eYGyw?si=M6W3GQ5X49_TBRtP',
           difficulty: 'Beginner'
         },
         {
@@ -234,7 +234,7 @@ const Learn = () => {
           description: 'Learn Figma design tool from basics to advanced',
           icon: '🎯',
           type: 'Video Course',
-          url: 'https://www.youtube.com/@TheCuttingEdgeSchool',
+          url: 'https://youtu.be/bI6q16ffdgQ?si=JPuxlLZ2TTPV4eSZ',
           difficulty: 'Beginner'
         }
       ]
@@ -257,7 +257,7 @@ const Learn = () => {
           description: 'Career guidance and tips for tech students',
           icon: '💡',
           type: 'Career Guidance',
-          url: 'https://www.youtube.com/@AnshMehra',
+          url: 'https://www.youtube.com/@CuttingEdgeSchool',
           difficulty: 'All Levels'
         }
       ]
