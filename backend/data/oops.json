@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "What does OOP stand for?",
+        "options": [
+            "Object Oriented Programming",
+            "Object Oriented Protocol",
+            "Overall Oriented Programming",
+            "Object Only Programming"
+        ],
+        "correctAnswer": "Object Oriented Programming",
+        "explanation": "OOP stands for Object Oriented Programming.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Blueprint for creating objects?",
+        "options": [
+            "Class",
+            "Method",
+            "Variable",
+            "Package"
+        ],
+        "correctAnswer": "Class",
+        "explanation": "A Class is a user-defined blueprint from which objects are created.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Instance of a class?",
+        "options": [
+            "Object",
+            "Method",
+            "Variable",
+            "Function"
+        ],
+        "correctAnswer": "Object",
+        "explanation": "An Object is an instance of a Class.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Mechanism of wrapping data and code?",
+        "options": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "Abstraction"
+        ],
+        "correctAnswer": "Encapsulation",
+        "explanation": "Encapsulation bundles data and methods into a single unit (class).",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Acquiring properties of another class?",
+        "options": [
+            "Inheritance",
+            "Polymorphism",
+            "Encapsulation",
+            "Abstraction"
+        ],
+        "correctAnswer": "Inheritance",
+        "explanation": "Inheritance allows a class to derive properties from another class.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Same method name, different behavior?",
+        "options": [
+            "Polymorphism",
+            "Inheritance",
+            "Encapsulation",
+            "Abstraction"
+        ],
+        "correctAnswer": "Polymorphism",
+        "explanation": "Polymorphism means 'many forms', allowing same interface for different actions.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Hiding internal details?",
+        "options": [
+            "Abstraction",
+            "Polymorphism",
+            "Inheritance",
+            "Encapsulation"
+        ],
+        "correctAnswer": "Abstraction",
+        "explanation": "Abstraction hides complex implementation details and shows only essentials.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Function inside a class?",
+        "options": [
+            "Method",
+            "Variable",
+            "Object",
+            "Constructor"
+        ],
+        "correctAnswer": "Method",
+        "explanation": "A function defined inside a class is called a Method.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Special method to initialize object?",
+        "options": [
+            "Constructor",
+            "Destructor",
+            "Initializer",
+            "Creator"
+        ],
+        "correctAnswer": "Constructor",
+        "explanation": "A Constructor is called when an object is created to initialize it.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Keyword to create an object?",
+        "options": [
+            "new",
+            "create",
+            "make",
+            "obj"
+        ],
+        "correctAnswer": "new",
+        "explanation": "The 'new' keyword is used to allocate memory for a new object.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Keyword to access current object?",
+        "options": [
+            "this",
+            "self",
+            "me",
+            "current"
+        ],
+        "correctAnswer": "this",
+        "explanation": "'this' is a reference variable to the current object.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Keyword to access parent class?",
+        "options": [
+            "super",
+            "parent",
+            "base",
+            "upper"
+        ],
+        "correctAnswer": "super",
+        "explanation": "'super' is used to refer to the immediate parent class object.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Class that cannot be instantiated?",
+        "options": [
+            "Abstract Class",
+            "Final Class",
+            "Static Class",
+            "Public Class"
+        ],
+        "correctAnswer": "Abstract Class",
+        "explanation": "Abstract classes cannot be used to create objects directly.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Concept of multiple forms?",
+        "options": [
+            "Polymorphism",
+            "Inheritance",
+            "Encapsulation",
+            "Abstraction"
+        ],
+        "correctAnswer": "Polymorphism",
+        "explanation": "Polymorphism comes from Greek words meaning 'many shapes'.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Variable shared by all instances?",
+        "options": [
+            "Static",
+            "Final",
+            "Private",
+            "Public"
+        ],
+        "correctAnswer": "Static",
+        "explanation": "Static variables belong to the class, not individual objects.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Access modifier for visible everywhere?",
+        "options": [
+            "Public",
+            "Private",
+            "Protected",
+            "Default"
+        ],
+        "correctAnswer": "Public",
+        "explanation": "Public members are accessible from any other class.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Access modifier restricted to class?",
+        "options": [
+            "Private",
+            "Public",
+            "Protected",
+            "Default"
+        ],
+        "correctAnswer": "Private",
+        "explanation": "Private members are only accessible within the defined class.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Relationship 'IS-A' refers to?",
+        "options": [
+            "Inheritance",
+            "Association",
+            "Composition",
+            "Aggregation"
+        ],
+        "correctAnswer": "Inheritance",
+        "explanation": "Inheritance represents an IS-A relationship (e.g., Car IS-A Vehicle).",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Relationship 'HAS-A' refers to?",
+        "options": [
+            "Association",
+            "Inheritance",
+            "Polymorphism",
+            "Abstraction"
+        ],
+        "correctAnswer": "Association",
+        "explanation": "Composition/Aggregation represent HAS-A (e.g., Car HAS-A Engine).",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Two methods with same name but different params?",
+        "options": [
+            "Overloading",
+            "Overriding",
+            "Hiding",
+            "Shadowing"
+        ],
+        "correctAnswer": "Overloading",
+        "explanation": "Method Overloading allows multiple methods with same name but different signature.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Redefining parent method in child?",
+        "options": [
+            "Overriding",
+            "Overloading",
+            "Hiding",
+            "Shadowing"
+        ],
+        "correctAnswer": "Overriding",
+        "explanation": "Method Overriding provides specific implementation of a parent method.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Destroys an object?",
+        "options": [
+            "Destructor",
+            "Constructor",
+            "Eraser",
+            "Remover"
+        ],
+        "correctAnswer": "Destructor",
+        "explanation": "A Destructor is called when an object is destroyed.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Class inheriting from another?",
+        "options": [
+            "Subclass",
+            "Superclass",
+            "Base class",
+            "Parent class"
+        ],
+        "correctAnswer": "Subclass",
+        "explanation": "The class that inherits is called the Subclass or Child Class.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Class being inherited from?",
+        "options": [
+            "Superclass",
+            "Subclass",
+            "Child class",
+            "Derived class"
+        ],
+        "correctAnswer": "Superclass",
+        "explanation": "The class from which we inherit is called the Superclass or Parent.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Java is pure OOP?",
+        "options": [
+            "No",
+            "Yes",
+            "Maybe",
+            "Don't know"
+        ],
+        "correctAnswer": "No",
+        "explanation": "Java is not pure OOP because it uses primitive data types (int, char).",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "C++ supports OOP?",
+        "options": [
+            "Yes",
+            "No",
+            "Partially",
+            "None"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "C++ supports Object Oriented Programming.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Python supports OOP?",
+        "options": [
+            "Yes",
+            "No",
+            "Partially",
+            "None"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "Python is a multi-paradigm language that supports OOP.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Keyword to inherit in Java?",
+        "options": [
+            "extends",
+            "implements",
+            "inherits",
+            "using"
+        ],
+        "correctAnswer": "extends",
+        "explanation": "Java uses 'extends' for class inheritance.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Does OOP provide security?",
+        "options": [
+            "Yes, via Encapsulation",
+            "No",
+            "Maybe",
+            "Only in C++"
+        ],
+        "correctAnswer": "Yes, via Encapsulation",
+        "explanation": "Encapsulation protects data from unauthorized access.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What allows code reusability?",
+        "options": [
+            "Inheritance",
+            "Polymorphism",
+            "Encapsulation",
+            "Abstraction"
+        ],
+        "correctAnswer": "Inheritance",
+        "explanation": "Inheritance allows reusing code from existing classes.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Can constructor be private?",
+        "options": [
+            "Yes",
+            "No",
+            "Invalid",
+            "Error"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "Yes, to prevent instantiation from outside (e.g., Singleton pattern).",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Can we overload main method?",
+        "options": [
+            "Yes",
+            "No",
+            "Error",
+            "Invalid"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "You can overload main(), but JVM only calls the one with String[] args.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Does Java support multiple inheritance?",
+        "options": [
+            "No",
+            "Yes",
+            "Directly",
+            "Always"
+        ],
+        "correctAnswer": "No",
+        "explanation": "Java does not support multiple inheritance with classes to avoid ambiguity.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Interface contains?",
+        "options": [
+            "Abstract methods",
+            "Concrete methods",
+            "Variables only",
+            "Constructors"
+        ],
+        "correctAnswer": "Abstract methods",
+        "explanation": "In classic usage, interfaces contain only abstract methods (and constants).",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Keyword to implement interface?",
+        "options": [
+            "implements",
+            "extends",
+            "uses",
+            "inherited"
+        ],
+        "correctAnswer": "implements",
+        "explanation": "A class 'implements' an interface.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Is String an object in Java?",
+        "options": [
+            "Yes",
+            "No",
+            "Primitive",
+            "Pointer"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "String is a class in Java, so string variables are objects.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Default value of an object?",
+        "options": [
+            "null",
+            "0",
+            "undefined",
+            "false"
+        ],
+        "correctAnswer": "null",
+        "explanation": "Uninitialized object references default to null.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Garbage collection handles?",
+        "options": [
+            "Memory deallocation",
+            "Memory allocation",
+            "Compilation",
+            "Execution"
+        ],
+        "correctAnswer": "Memory deallocation",
+        "explanation": "GC automatically frees memory of unused objects.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Deep copy vs Shallow copy refers to?",
+        "options": [
+            "Object cloning",
+            "Inheritance",
+            "Polymorphism",
+            "Encapsulation"
+        ],
+        "correctAnswer": "Object cloning",
+        "explanation": "These terms refer to how objects and their references are copied.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Can a class be static?",
+        "options": [
+            "Yes, if nested",
+            "No",
+            "Always",
+            "Never"
+        ],
+        "correctAnswer": "Yes, if nested",
+        "explanation": "Only nested classes can be declared static.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Is Object class the parent of all classes in Java?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe",
+            "Sometimes"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "Every class in Java implicitly inherits from the Object class.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "SOLID principles used for?",
+        "options": [
+            "Better OOP design",
+            "Faster compilation",
+            "Less memory",
+            "Better graphics"
+        ],
+        "correctAnswer": "Better OOP design",
+        "explanation": "SOLID is a set of principles for maintainable OO design.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Single Responsibility Principle?",
+        "options": [
+            "One class, one job",
+            "Many assignments",
+            "Single inheritance",
+            "Single object"
+        ],
+        "correctAnswer": "One class, one job",
+        "explanation": "A class should have only one reason to change.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Open/Closed Principle?",
+        "options": [
+            "Open extension, closed modification",
+            "Open source",
+            "Close connections",
+            "Open files"
+        ],
+        "correctAnswer": "Open extension, closed modification",
+        "explanation": "Entities should be open for extension but closed for modification.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "DRY stands for?",
+        "options": [
+            "Don't Repeat Yourself",
+            "Do Repeat Yourself",
+            "Data Repeat Yes",
+            "Don't Run Yet"
+        ],
+        "correctAnswer": "Don't Repeat Yourself",
+        "explanation": "DRY aims to reduce repetition in code.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "KISS stands for?",
+        "options": [
+            "Keep It Simple, Stupid",
+            "Keep It Super Safe",
+            "Keep It So Simple",
+            "Key Is Simple Software"
+        ],
+        "correctAnswer": "Keep It Simple, Stupid",
+        "explanation": "KISS states that most systems work best if they are kept simple.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Early binding is?",
+        "options": [
+            "Compile time",
+            "Run time",
+            "Load time",
+            "Link time"
+        ],
+        "correctAnswer": "Compile time",
+        "explanation": "Early binding (static binding) happens at compile time.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Late binding is?",
+        "options": [
+            "Run time",
+            "Compile time",
+            "Design time",
+            "Coding time"
+        ],
+        "correctAnswer": "Run time",
+        "explanation": "Late binding (dynamic binding) happens at runtime.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Code inside a try block?",
+        "options": [
+            "Might throw exception",
+            "Always works",
+            "Never executes",
+            "Is optional"
+        ],
+        "correctAnswer": "Might throw exception",
+        "explanation": "The try block contains code that might generate an exception.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Catch block is used for?",
+        "options": [
+            "Handling exception",
+            "Throwing exception",
+            "Creating exception",
+            "Ignoring exception"
+        ],
+        "correctAnswer": "Handling exception",
+        "explanation": "The catch block handles exceptions thrown by the try block.",
+        "category": "OOPs",
+        "difficulty": "Easy"
+    }
+]

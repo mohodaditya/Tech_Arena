@@ -8,11 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",         
-    "deploy": "gh-pages -d dist"           
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.57.4",
     "canvas-confetti": "^1.9.3",
     "framer-motion": "^12.23.16",
     "lucide-react": "^0.544.0",
@@ -22,8 +21,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.18",
     "eslint": "^9.9.1",
@@ -33,8 +30,6 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.3.0",
     "vite": "^7.1.6"
   },
   "main": "eslint.config.js",
@@ -47,6 +42,6 @@
   "bugs": {
     "url": "https://github.com/mohodaditya/Tech_Arena/issues"
   },
-  "homepage": "https://mohodaditya.github.io/Tech_Arena/", 
+  "homepage": "https://mohodaditya.github.io/Tech_Arena/",
   "description": ""
 }

@@ -1,27 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { 
-  BookOpen, 
-  ExternalLink, 
-  Code, 
-  Database, 
-  Cpu, 
-  Network, 
-  Brain, 
-  Calculator, 
-  DollarSign, 
-  Bot, 
-  FileText, 
-  Video, 
-  Globe, 
+import {
+  BookOpen,
+  ExternalLink,
+  Code,
+  Cpu,
+  Brain,
+  Bot,
   Zap,
   Target,
   Award,
   Users,
-  Clock,
   Palette,
-  TrendingUp,
-  MessageCircle
+  TrendingUp
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import BottomDock from '../components/BottomDock';
@@ -300,35 +291,35 @@ const Learn = () => {
   ];
 
   const getDifficultyColor = (difficulty) => {
-    if (difficulty.includes('Beginner')) return 'bg-green-100 text-green-800';
-    if (difficulty.includes('Intermediate')) return 'bg-yellow-100 text-yellow-800';
-    if (difficulty.includes('Advanced')) return 'bg-red-100 text-red-800';
-    return 'bg-blue-100 text-blue-800';
+    if (difficulty.includes('Beginner')) return 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300';
+    if (difficulty.includes('Intermediate')) return 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/40 dark:text-yellow-300';
+    if (difficulty.includes('Advanced')) return 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300';
+    return 'bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300';
   };
 
   const getTypeColor = (type) => {
     const typeColors = {
-      'Tutorial': 'bg-blue-100 text-blue-800',
-      'Video Course': 'bg-red-100 text-red-800',
-      'Practice Platform': 'bg-purple-100 text-purple-800',
-      'Q&A Platform': 'bg-orange-100 text-orange-800',
-      'Video Content': 'bg-pink-100 text-pink-800',
-      'Educational Video': 'bg-indigo-100 text-indigo-800',
-      'Social Learning': 'bg-cyan-100 text-cyan-800',
-      'Motivational Video': 'bg-emerald-100 text-emerald-800',
-      'Career Guidance': 'bg-teal-100 text-teal-800',
-      'Interview Prep': 'bg-fuchsia-100 text-fuchsia-800',
-      'Study Guide': 'bg-slate-100 text-slate-800'
+      'Tutorial': 'bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300',
+      'Video Course': 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300',
+      'Practice Platform': 'bg-purple-100 text-purple-800 dark:bg-purple-900/40 dark:text-purple-300',
+      'Q&A Platform': 'bg-orange-100 text-orange-800 dark:bg-orange-900/40 dark:text-orange-300',
+      'Video Content': 'bg-pink-100 text-pink-800 dark:bg-pink-900/40 dark:text-pink-300',
+      'Educational Video': 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/40 dark:text-indigo-300',
+      'Social Learning': 'bg-cyan-100 text-cyan-800 dark:bg-cyan-900/40 dark:text-cyan-300',
+      'Motivational Video': 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300',
+      'Career Guidance': 'bg-teal-100 text-teal-800 dark:bg-teal-900/40 dark:text-teal-300',
+      'Interview Prep': 'bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-900/40 dark:text-fuchsia-300',
+      'Study Guide': 'bg-slate-100 text-slate-800 dark:bg-slate-900/40 dark:text-slate-300'
     };
-    return typeColors[type] || 'bg-gray-100 text-gray-800';
+    return typeColors[type] || 'bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300';
   };
 
   return (
-    <div className="min-h-screen bg-[#FFF8F6]">
+    <div className="min-h-screen bg-[#FFF8F6] dark:bg-gray-950 transition-colors duration-300">
       <Navbar />
-      
+
       {/* Hero Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-blue-50 to-indigo-50">
+      <section className="py-20 px-4 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 transition-colors duration-300">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -336,22 +327,22 @@ const Learn = () => {
             transition={{ duration: 0.8 }}
           >
             <BookOpen className="h-16 w-16 text-[#00A699] mx-auto mb-6" />
-            <h1 className="text-5xl md:text-6xl font-bold text-[#222222] mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-[#222222] dark:text-white mb-6 transition-colors duration-300">
               Unlock Knowledge 📖
             </h1>
-            <p className="text-xl md:text-2xl text-[#484848] mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#484848] dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed transition-colors duration-300">
               Learn and Grow at Your Own Pace
             </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm text-[#484848]">
-              <div className="flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-lg">
+            <div className="flex flex-wrap justify-center gap-4 text-sm text-[#484848] dark:text-gray-300">
+              <div className="flex items-center space-x-2 bg-white dark:bg-gray-800 px-4 py-2 rounded-full shadow-lg transition-colors duration-300">
                 <Users className="h-4 w-4 text-blue-500" />
                 <span>Student-Focused</span>
               </div>
-              <div className="flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-lg">
+              <div className="flex items-center space-x-2 bg-white dark:bg-gray-800 px-4 py-2 rounded-full shadow-lg transition-colors duration-300">
                 <Award className="h-4 w-4 text-green-500" />
                 <span>Curated Quality</span>
               </div>
-              <div className="flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-lg">
+              <div className="flex items-center space-x-2 bg-white dark:bg-gray-800 px-4 py-2 rounded-full shadow-lg transition-colors duration-300">
                 <Zap className="h-4 w-4 text-yellow-500" />
                 <span>Free Access</span>
               </div>
@@ -379,10 +370,10 @@ const Learn = () => {
                     <CategoryIcon className="h-8 w-8 text-white" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#222222]">
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#222222] dark:text-white transition-colors duration-300">
                       {category.title}
                     </h2>
-                    <p className="text-[#484848] mt-1">
+                    <p className="text-[#484848] dark:text-gray-400 mt-1 transition-colors duration-300">
                       {category.resources.length} carefully curated resources
                     </p>
                   </div>
@@ -396,7 +387,7 @@ const Learn = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: resourceIndex * 0.1 }}
-                      className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-100 overflow-hidden"
+                      className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-100 dark:border-gray-700 overflow-hidden"
                     >
                       <div className="p-6">
                         {/* Resource Header */}
@@ -405,11 +396,11 @@ const Learn = () => {
                           <ExternalLink className="h-4 w-4 text-gray-400 group-hover:text-[#FF5A5F] transition-colors duration-300" />
                         </div>
 
-                        <h3 className="text-lg font-bold text-[#222222] mb-2 group-hover:text-[#FF5A5F] transition-colors duration-300 line-clamp-2">
+                        <h3 className="text-lg font-bold text-[#222222] dark:text-white mb-2 group-hover:text-[#FF5A5F] transition-colors duration-300 line-clamp-2">
                           {resource.title}
                         </h3>
-                        
-                        <p className="text-[#484848] text-sm leading-relaxed mb-4 line-clamp-3">
+
+                        <p className="text-[#484848] dark:text-gray-400 text-sm leading-relaxed mb-4 line-clamp-3 transition-colors duration-300">
                           {resource.description}
                         </p>
 
@@ -444,7 +435,7 @@ const Learn = () => {
       </section>
 
       {/* Interview Preparation Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-gray-100">
+      <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -456,11 +447,11 @@ const Learn = () => {
               <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center shadow-lg">
                 <Target className="h-8 w-8 text-white" />
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#222222]">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#222222] dark:text-white transition-colors duration-300">
                 Interview Preparation
               </h2>
             </div>
-            <p className="text-xl text-[#484848] max-w-2xl mx-auto">
+            <p className="text-xl text-[#484848] dark:text-gray-300 max-w-2xl mx-auto transition-colors duration-300">
               Ace your technical interviews with these essential resources
             </p>
           </motion.div>
@@ -472,7 +463,7 @@ const Learn = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-100 overflow-hidden"
+                className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-100 dark:border-gray-700 overflow-hidden"
               >
                 <div className="p-6">
                   <div className="flex items-start justify-between mb-4">
@@ -480,11 +471,11 @@ const Learn = () => {
                     <ExternalLink className="h-4 w-4 text-gray-400 group-hover:text-[#00A699] transition-colors duration-300" />
                   </div>
 
-                  <h3 className="text-lg font-bold text-[#222222] mb-2 group-hover:text-[#00A699] transition-colors duration-300">
+                  <h3 className="text-lg font-bold text-[#222222] dark:text-white mb-2 group-hover:text-[#00A699] transition-colors duration-300">
                     {resource.title}
                   </h3>
-                  
-                  <p className="text-[#484848] text-sm leading-relaxed mb-4">
+
+                  <p className="text-[#484848] dark:text-gray-400 text-sm leading-relaxed mb-4 transition-colors duration-300">
                     {resource.description}
                   </p>
 
@@ -521,10 +512,10 @@ const Learn = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-[#222222] mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#222222] dark:text-white mb-6 transition-colors duration-300">
               Ready to Start Your Learning Journey?
             </h2>
-            <p className="text-xl text-[#484848] mb-8 leading-relaxed">
+            <p className="text-xl text-[#484848] dark:text-gray-300 mb-8 leading-relaxed transition-colors duration-300">
               Join thousands of students who are already advancing their careers with these carefully curated resources.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -534,12 +525,13 @@ const Learn = () => {
               >
                 Explore All Resources
               </button>
-              <button
-                onClick={() => window.open('/', '_blank')}
-                className="px-8 py-4 bg-gradient-to-r from-[#00A699] to-[#00C9A7] text-white font-semibold rounded-2xl hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl"
+              {/* Re-implementing with Link or useNavigate would be better, but simpler: */}
+              <a
+                href="/#quiz-section"
+                className="px-8 py-4 bg-gradient-to-r from-[#00A699] to-[#00C9A7] text-white font-semibold rounded-2xl hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl inline-block"
               >
                 Take a Quiz
-              </button>
+              </a>
             </div>
           </motion.div>
         </div>

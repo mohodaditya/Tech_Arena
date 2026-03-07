@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "What does HTML stand for?",
+        "options": [
+            "Hyper Text Markup Language",
+            "High Text Markup Language",
+            "Hyper Text Make Language",
+            "Home Text Markup Language"
+        ],
+        "correctAnswer": "Hyper Text Markup Language",
+        "explanation": "HTML stands for Hyper Text Markup Language.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does CSS stand for?",
+        "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Colorful Style Sheets"
+        ],
+        "correctAnswer": "Cascading Style Sheets",
+        "explanation": "CSS stands for Cascading Style Sheets, used for styling.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Language for web page structure?",
+        "options": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Python"
+        ],
+        "correctAnswer": "HTML",
+        "explanation": "HTML provides the semantic structure of a web page.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Language for web page style?",
+        "options": [
+            "CSS",
+            "HTML",
+            "SQL",
+            "Java"
+        ],
+        "correctAnswer": "CSS",
+        "explanation": "CSS is responsible for the layout and appearance.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Language for web interactivity?",
+        "options": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "SQL"
+        ],
+        "correctAnswer": "JavaScript",
+        "explanation": "JavaScript adds dynamic behavior and interactivity.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which tag makes text bold?",
+        "options": [
+            "<b>",
+            "<bold>",
+            "<br>",
+            "<bl>"
+        ],
+        "correctAnswer": "<b>",
+        "explanation": "The <b> tag (or <strong>) is used to make text bold.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which tag creates a link?",
+        "options": [
+            "<a>",
+            "<link>",
+            "<href>",
+            "<url>"
+        ],
+        "correctAnswer": "<a>",
+        "explanation": "The <a> tag creates a hyperlink.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which tag creates an image?",
+        "options": [
+            "<img>",
+            "<image>",
+            "<pic>",
+            "<src>"
+        ],
+        "correctAnswer": "<img>",
+        "explanation": "The <img> tag embeds an image.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Correct attribute for image source?",
+        "options": [
+            "src",
+            "source",
+            "href",
+            "link"
+        ],
+        "correctAnswer": "src",
+        "explanation": "src (source) specifies the path to the image.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Correct attribute for link URL?",
+        "options": [
+            "href",
+            "src",
+            "link",
+            "url"
+        ],
+        "correctAnswer": "href",
+        "explanation": "href (hypertext reference) specifies the link destination.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Largest heading tag?",
+        "options": [
+            "<h1>",
+            "<h6>",
+            "<head>",
+            "<header>"
+        ],
+        "correctAnswer": "<h1>",
+        "explanation": "<h1> represents the most important heading.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Smallest heading tag?",
+        "options": [
+            "<h6>",
+            "<h1>",
+            "<small>",
+            "<p>"
+        ],
+        "correctAnswer": "<h6>",
+        "explanation": "<h6> represents the least important heading.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Tag for a paragraph?",
+        "options": [
+            "<p>",
+            "<para>",
+            "<text>",
+            "<line>"
+        ],
+        "correctAnswer": "<p>",
+        "explanation": "The <p> tag defines a paragraph.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Tag for an unordered list?",
+        "options": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<list>"
+        ],
+        "correctAnswer": "<ul>",
+        "explanation": "<ul> defines a bulleted (unordered) list.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Tag for an ordered list?",
+        "options": [
+            "<ol>",
+            "<ul>",
+            "<li>",
+            "<list>"
+        ],
+        "correctAnswer": "<ol>",
+        "explanation": "<ol> defines a numbered (ordered) list.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Tag for a list item?",
+        "options": [
+            "<li>",
+            "<item>",
+            "<List>",
+            "<ul>"
+        ],
+        "correctAnswer": "<li>",
+        "explanation": "<li> defines a list item within <ul> or <ol>.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which CSS property colors text?",
+        "options": [
+            "color",
+            "text-color",
+            "font-color",
+            "bg-color"
+        ],
+        "correctAnswer": "color",
+        "explanation": "The 'color' property sets the text color.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which CSS property changes background?",
+        "options": [
+            "background-color",
+            "color",
+            "bgcolor",
+            "back-color"
+        ],
+        "correctAnswer": "background-color",
+        "explanation": "The 'background-color' property sets the background.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which CSS property changes font size?",
+        "options": [
+            "font-size",
+            "text-size",
+            "size",
+            "font-style"
+        ],
+        "correctAnswer": "font-size",
+        "explanation": "'font-size' controls the size of text.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "How to select element by ID in CSS?",
+        "options": [
+            "#id",
+            ".id",
+            "id",
+            "*id"
+        ],
+        "correctAnswer": "#id",
+        "explanation": "IDs are selected using the hash (#) symbol.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "How to select element by Class in CSS?",
+        "options": [
+            ".class",
+            "#class",
+            "class",
+            "*class"
+        ],
+        "correctAnswer": ".class",
+        "explanation": "Classes are selected using the dot (.) symbol.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What allows JS to change HTML?",
+        "options": [
+            "DOM",
+            "BOM",
+            "CSS",
+            "SQL"
+        ],
+        "correctAnswer": "DOM",
+        "explanation": "The DOM (Document Object Model) allows JS to manipulate page content.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "DOM stands for?",
+        "options": [
+            "Document Object Model",
+            "Data Object Model",
+            "Digital Object Model",
+            "Dynamic Object Model"
+        ],
+        "correctAnswer": "Document Object Model",
+        "explanation": "DOM stands for Document Object Model.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Keyword to declare variable in JS?",
+        "options": [
+            "var/let",
+            "dim",
+            "int",
+            "string"
+        ],
+        "correctAnswer": "var/let",
+        "explanation": "var, let, and const are used to declare variables.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Function to display message box?",
+        "options": [
+            "alert()",
+            "msg()",
+            "popup()",
+            "box()"
+        ],
+        "correctAnswer": "alert()",
+        "explanation": "alert() pops up a message box in the browser.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Function to print to console?",
+        "options": [
+            "console.log()",
+            "print()",
+            "log()",
+            "write()"
+        ],
+        "correctAnswer": "console.log()",
+        "explanation": "console.log() writes output to the browser console.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "React is a framework of?",
+        "options": [
+            "JavaScript",
+            "Python",
+            "Java",
+            "PHP"
+        ],
+        "correctAnswer": "JavaScript",
+        "explanation": "React is a popular JavaScript library/framework for UI.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Next.js is built on?",
+        "options": [
+            "React",
+            "Angular",
+            "Vue",
+            "Svelte"
+        ],
+        "correctAnswer": "React",
+        "explanation": "Next.js is a framework built on top of React.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Angular is developed by?",
+        "options": [
+            "Google",
+            "Facebook",
+            "Microsoft",
+            "Amazon"
+        ],
+        "correctAnswer": "Google",
+        "explanation": "Angular is maintained by Google.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "React is developed by?",
+        "options": [
+            "Facebook (Meta)",
+            "Google",
+            "Microsoft",
+            "Twitter"
+        ],
+        "correctAnswer": "Facebook (Meta)",
+        "explanation": "React is maintained by Facebook (Meta).",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Node.js allows JS to run on?",
+        "options": [
+            "Server/Backend",
+            "Browser only",
+            "printer",
+            "Monitor"
+        ],
+        "correctAnswer": "Server/Backend",
+        "explanation": "Node.js is a runtime that executes JS outside the browser.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "JSON stands for?",
+        "options": [
+            "JavaScript Object Notation",
+            "Java Syntax Object Name",
+            "JS Object Networking",
+            "Java Simple Object Note"
+        ],
+        "correctAnswer": "JavaScript Object Notation",
+        "explanation": "JSON is a lightweight data-interchange format.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which HTTP method gets data?",
+        "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "correctAnswer": "GET",
+        "explanation": "GET requests retrieve data from a specified resource.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which HTTP method sends data?",
+        "options": [
+            "POST",
+            "GET",
+            "FETCH",
+            "PULL"
+        ],
+        "correctAnswer": "POST",
+        "explanation": "POST sends data to a server to create/update a resource.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "API stands for?",
+        "options": [
+            "Application Programming Interface",
+            "App Program Init",
+            "App Process Interface",
+            "Auto Program Interface"
+        ],
+        "correctAnswer": "Application Programming Interface",
+        "explanation": "API allows different software applications to communicate.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Tool to manage git repositories?",
+        "options": [
+            "GitHub/GitLab",
+            "Dropbox",
+            "Drive",
+            "OneNote"
+        ],
+        "correctAnswer": "GitHub/GitLab",
+        "explanation": "GitHub and GitLab are platforms for hosting Git repositories.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Command to clone a repo?",
+        "options": [
+            "git clone",
+            "git copy",
+            "git download",
+            "git pull"
+        ],
+        "correctAnswer": "git clone",
+        "explanation": "git clone is used to copy an existing repository.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Command to save changes in git?",
+        "options": [
+            "git commit",
+            "git save",
+            "git store",
+            "git keep"
+        ],
+        "correctAnswer": "git commit",
+        "explanation": "git commit saves your staged changes to the repo.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Popular database for web apps?",
+        "options": [
+            "MySQL/MongoDB",
+            "Excel",
+            "Word",
+            "Notepad"
+        ],
+        "correctAnswer": "MySQL/MongoDB",
+        "explanation": "Databases like MySQL or MongoDB are backend storage for web apps.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Frontend framework?",
+        "options": [
+            "React",
+            "Express",
+            "Django",
+            "Flask"
+        ],
+        "correctAnswer": "React",
+        "explanation": "React is a frontend library; the others are backend.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Backend framework?",
+        "options": [
+            "Express",
+            "React",
+            "Vue",
+            "Tailwind"
+        ],
+        "correctAnswer": "Express",
+        "explanation": "Express is a web framework for Node.js backend.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "CSS framework?",
+        "options": [
+            "Tailwind/Bootstrap",
+            "React",
+            "Node",
+            "Mongo"
+        ],
+        "correctAnswer": "Tailwind/Bootstrap",
+        "explanation": "Tailwind and Bootstrap are popular CSS frameworks.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Browser engine for Chrome?",
+        "options": [
+            "V8",
+            "SpiderMonkey",
+            "Chakra",
+            "Gecko"
+        ],
+        "correctAnswer": "V8",
+        "explanation": "Chrome runs JavaScript using the V8 engine.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which symbol ends a JS statement?",
+        "options": [
+            ";",
+            ".",
+            ":",
+            ","
+        ],
+        "correctAnswer": ";",
+        "explanation": "Semicolons are used to terminate JavaScript statements.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Comparison operator in JS?",
+        "options": [
+            "==",
+            "=",
+            ":=",
+            "->"
+        ],
+        "correctAnswer": "==",
+        "explanation": "== compares values for equality.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Strict comparison in JS?",
+        "options": [
+            "===",
+            "==",
+            "=",
+            "!=="
+        ],
+        "correctAnswer": "===",
+        "explanation": "=== compares value and type.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Logical AND operator?",
+        "options": [
+            "&&",
+            "||",
+            "!",
+            "&"
+        ],
+        "correctAnswer": "&&",
+        "explanation": "&& returns true only if both operands are true.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Logical OR operator?",
+        "options": [
+            "||",
+            "&&",
+            "!",
+            "|"
+        ],
+        "correctAnswer": "||",
+        "explanation": "|| returns true if at least one operand is true.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Loop structure?",
+        "options": [
+            "for",
+            "if",
+            "switch",
+            "try"
+        ],
+        "correctAnswer": "for",
+        "explanation": "The 'for' statement creates a loop.",
+        "category": "Development",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Conditional structure?",
+        "options": [
+            "if-else",
+            "for",
+            "while",
+            "class"
+        ],
+        "correctAnswer": "if-else",
+        "explanation": "if-else executes code based on a condition.",
+        "category": "Development",
+        "difficulty": "Easy"
+    }
+]

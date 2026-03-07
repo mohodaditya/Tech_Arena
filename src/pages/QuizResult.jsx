@@ -8,7 +8,7 @@ const QuizResult = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [animatedScore, setAnimatedScore] = useState(0);
-  
+
   const { score = 0, totalQuestions = 0, correctAnswers = 0, category = 'Quiz' } = location.state || {};
 
   useEffect(() => {
@@ -88,12 +88,12 @@ const QuizResult = () => {
   const MotivationalIcon = motivationalData.icon;
 
   return (
-    <div className="min-h-screen bg-[#FFF8F6] flex items-center justify-center p-4">
-      <motion.div 
+    <div className="min-h-screen bg-[#FFF8F6] dark:bg-gray-950 flex items-center justify-center p-4 transition-colors duration-300">
+      <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, type: "spring" }}
-        className="max-w-2xl w-full bg-white rounded-2xl shadow-2xl p-8 md:p-12 text-center border border-gray-100"
+        className="max-w-2xl w-full bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-8 md:p-12 text-center border border-gray-100 dark:border-gray-700 transition-colors duration-300"
       >
         {/* Trophy Icon */}
         <motion.div
@@ -109,11 +109,11 @@ const QuizResult = () => {
         </motion.div>
 
         {/* Quiz Complete Text */}
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold text-[#222222] mb-2"
+          className="text-3xl md:text-4xl font-bold text-[#222222] dark:text-white mb-2"
         >
           {category} Quiz Complete!
         </motion.h1>
@@ -122,13 +122,13 @@ const QuizResult = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-[#484848] mb-8"
+          className="text-[#484848] dark:text-gray-400 mb-8"
         >
           Here's how you performed
         </motion.p>
 
         {/* Score Display */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.6, duration: 0.8, type: "spring" }}
@@ -137,13 +137,13 @@ const QuizResult = () => {
           <div className={`text-6xl md:text-8xl font-bold bg-gradient-to-r ${motivationalData.color} bg-clip-text text-transparent mb-4`}>
             {Math.round(animatedScore)}%
           </div>
-          <div className="text-xl text-[#484848]">
+          <div className="text-xl text-[#484848] dark:text-gray-300">
             {correctAnswers} out of {totalQuestions} questions correct
           </div>
         </motion.div>
 
         {/* Motivational Message */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8 }}
@@ -152,26 +152,33 @@ const QuizResult = () => {
           <h2 className={`text-2xl md:text-3xl font-bold bg-gradient-to-r ${motivationalData.color} bg-clip-text text-transparent mb-3`}>
             {motivationalData.message}
           </h2>
-          <p className="text-[#484848] text-lg leading-relaxed">
+          <p className="text-[#484848] dark:text-gray-300 text-lg leading-relaxed">
             {motivationalData.subtitle}
           </p>
         </motion.div>
 
         {/* Action Buttons */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8 }}
           className="flex flex-col md:flex-row gap-4 justify-center mb-8"
         >
           <button
-            onClick={() => window.location.reload()}
+            onClick={() => {
+              if (category === 'Quiz') {
+                navigate('/#quiz-section');
+              } else {
+                // Find the category ID from the name if possible, or just go to quiz list
+                navigate('/#quiz-section');
+              }
+            }}
             className="flex items-center justify-center gap-2 px-8 py-3 bg-gradient-to-r from-[#FF5A5F] to-[#FF8E53] text-white font-semibold rounded-2xl hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl"
           >
             <RotateCcw size={20} />
             Play Again
           </button>
-          
+
           <button
             onClick={() => navigate('/')}
             className="flex items-center justify-center gap-2 px-8 py-3 bg-gradient-to-r from-[#00A699] to-[#00C9A7] text-white font-semibold rounded-2xl hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl"
@@ -182,24 +189,24 @@ const QuizResult = () => {
         </motion.div>
 
         {/* Performance Breakdown */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
-          className="pt-8 border-t border-gray-200"
+          className="pt-8 border-t border-gray-200 dark:border-gray-700"
         >
           <div className="grid grid-cols-3 gap-4 text-center">
-            <div className="p-4 bg-green-50 rounded-2xl border border-green-200">
-              <div className="text-2xl font-bold text-green-600">{correctAnswers}</div>
-              <div className="text-sm text-green-700 font-medium">Correct</div>
+            <div className="p-4 bg-green-50 dark:bg-green-900/20 rounded-2xl border border-green-200 dark:border-green-800">
+              <div className="text-2xl font-bold text-green-600 dark:text-green-400">{correctAnswers}</div>
+              <div className="text-sm text-green-700 dark:text-green-500 font-medium">Correct</div>
             </div>
-            <div className="p-4 bg-red-50 rounded-2xl border border-red-200">
-              <div className="text-2xl font-bold text-red-600">{totalQuestions - correctAnswers}</div>
-              <div className="text-sm text-red-700 font-medium">Wrong</div>
+            <div className="p-4 bg-red-50 dark:bg-red-900/20 rounded-2xl border border-red-200 dark:border-red-800">
+              <div className="text-2xl font-bold text-red-600 dark:text-red-400">{totalQuestions - correctAnswers}</div>
+              <div className="text-sm text-red-700 dark:text-red-500 font-medium">Wrong</div>
             </div>
-            <div className="p-4 bg-blue-50 rounded-2xl border border-blue-200">
-              <div className="text-2xl font-bold text-blue-600">{totalQuestions}</div>
-              <div className="text-sm text-blue-700 font-medium">Total</div>
+            <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-2xl border border-blue-200 dark:border-blue-800">
+              <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">{totalQuestions}</div>
+              <div className="text-sm text-blue-700 dark:text-blue-500 font-medium">Total</div>
             </div>
           </div>
         </motion.div>

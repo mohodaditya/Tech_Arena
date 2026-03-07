@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "What does ML stand for?",
+        "options": [
+            "Machine Learning",
+            "Mobile Learning",
+            "Main Loop",
+            "Mechanical Logic"
+        ],
+        "correctAnswer": "Machine Learning",
+        "explanation": "ML stands for Machine Learning.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Learning from labeled data?",
+        "options": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "correctAnswer": "Supervised Learning",
+        "explanation": "Supervised Learning uses provided input-output pairs.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Learning without labeled data?",
+        "options": [
+            "Unsupervised Learning",
+            "Supervised Learning",
+            "Reinforcement Learning",
+            "Linear Learning"
+        ],
+        "correctAnswer": "Unsupervised Learning",
+        "explanation": "Unsupervised Learning finds patterns in unlabeled data.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Learning from rewards?",
+        "options": [
+            "Reinforcement Learning",
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Static Learning"
+        ],
+        "correctAnswer": "Reinforcement Learning",
+        "explanation": "Reinforcement Learning is based on maximizing rewards.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Example of Supervised Learning?",
+        "options": [
+            "Email Spam Filter",
+            "Customer Segmentation",
+            "Chess Bot",
+            "Auto Driving"
+        ],
+        "correctAnswer": "Email Spam Filter",
+        "explanation": "Spam filters are trained on labeled examples (spam vs. not spam).",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Problem of predicting categories?",
+        "options": [
+            "Classification",
+            "Regression",
+            "Clustering",
+            "Ranking"
+        ],
+        "correctAnswer": "Classification",
+        "explanation": "Classification involves predicting a discrete label.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Problem of predicting numbers?",
+        "options": [
+            "Regression",
+            "Classification",
+            "Clustering",
+            "Sorting"
+        ],
+        "correctAnswer": "Regression",
+        "explanation": "Regression involves predicting continuous values.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Grouping similar data points?",
+        "options": [
+            "Clustering",
+            "Classification",
+            "Regression",
+            "Labeling"
+        ],
+        "correctAnswer": "Clustering",
+        "explanation": "Clustering groups objects that are similar to each other.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Popular ML library in Python?",
+        "options": [
+            "Scikit-learn",
+            "React",
+            "Pandas",
+            "NumPy"
+        ],
+        "correctAnswer": "Scikit-learn",
+        "explanation": "Scikit-learn is a key library for classical ML algorithms.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Library for neural networks?",
+        "options": [
+            "TensorFlow/PyTorch",
+            "Flask",
+            "Django",
+            "jQuery"
+        ],
+        "correctAnswer": "TensorFlow/PyTorch",
+        "explanation": "TensorFlow and PyTorch are leading frameworks for Deep Learning.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data used to teach the model?",
+        "options": [
+            "Training Data",
+            "Test Data",
+            "Validation Data",
+            "Raw Data"
+        ],
+        "correctAnswer": "Training Data",
+        "explanation": "The model learns from the Training Data.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data used to evaluate the model?",
+        "options": [
+            "Test Data",
+            "Training Data",
+            "Raw Data",
+            "Fake Data"
+        ],
+        "correctAnswer": "Test Data",
+        "explanation": "Test Data is used to assess the model's performance.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Overfitting means?",
+        "options": [
+            "Model learns noise",
+            "Model is too simple",
+            "Model is perfect",
+            "Model is slow"
+        ],
+        "correctAnswer": "Model learns noise",
+        "explanation": "Overfitting occurs when a model learns training data too well, including noise.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Underfitting means?",
+        "options": [
+            "Model is too simple",
+            "Model learns noise",
+            "Model is perfect",
+            "Model uses too much data"
+        ],
+        "correctAnswer": "Model is too simple",
+        "explanation": "Underfitting happens when the model cannot capture the underlying trend.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Algorithm based on trees?",
+        "options": [
+            "Decision Tree",
+            "Linear Regression",
+            "K-Means",
+            "SVM"
+        ],
+        "correctAnswer": "Decision Tree",
+        "explanation": "Decision Trees use a tree-like model of decisions.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Algorithm for clustering?",
+        "options": [
+            "K-Means",
+            "Linear Regression",
+            "Decision Tree",
+            "Naive Bayes"
+        ],
+        "correctAnswer": "K-Means",
+        "explanation": "K-Means is a popular clustering algorithm.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Neural network mimics?",
+        "options": [
+            "Human Brain",
+            "Computer CPU",
+            "Tree Roots",
+            "Ant Colony"
+        ],
+        "correctAnswer": "Human Brain",
+        "explanation": "Neural networks are inspired by the structure of biological brains.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Basic unit of neural network?",
+        "options": [
+            "Neuron/Perceptron",
+            "Pixel",
+            "Bit",
+            "Gate"
+        ],
+        "correctAnswer": "Neuron/Perceptron",
+        "explanation": "The fundamental unit is a Neuron (or Perceptron).",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Deep Learning uses?",
+        "options": [
+            "Multi-layer Neural Networks",
+            "Single Decision Tree",
+            "Linear Equation",
+            "Sorting"
+        ],
+        "correctAnswer": "Multi-layer Neural Networks",
+        "explanation": "Deep Learning utilizes Deep Neural Networks with many layers.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "NLP stands for?",
+        "options": [
+            "Natural Language Processing",
+            "Neural Language Processing",
+            "Natural Learning Process",
+            "No Learning Process"
+        ],
+        "correctAnswer": "Natural Language Processing",
+        "explanation": "NLP deals with the interaction between computers and human language.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "CV stands for in ML?",
+        "options": [
+            "Computer Vision",
+            "Curriculum Vitae",
+            "Constant Value",
+            "Control Version"
+        ],
+        "correctAnswer": "Computer Vision",
+        "explanation": "Computer Vision allows computers to see and understand images.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Example of NLP?",
+        "options": [
+            "Chatbot/Translate",
+            "Face Recognition",
+            "Stock Prediction",
+            "Game Playing"
+        ],
+        "correctAnswer": "Chatbot/Translate",
+        "explanation": "Chatbots and Translation tools relies heavily on NLP.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Example of Computer Vision?",
+        "options": [
+            "Face Unlock",
+            "Spam Filter",
+            "Price Prediction",
+            "Text Sumuarization"
+        ],
+        "correctAnswer": "Face Unlock",
+        "explanation": "Face Unlock uses facial recognition, a CV task.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "True Positive means?",
+        "options": [
+            "Correctly predicted Yes",
+            "Incorrectly predicted Yes",
+            "Correctly predicted No",
+            "Incorrectly predicted No"
+        ],
+        "correctAnswer": "Correctly predicted Yes",
+        "explanation": "True Positive: Model correctly predicted the positive class.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "False Positive means?",
+        "options": [
+            "Incorrectly predicted Yes",
+            "Correctly predicted Yes",
+            "Correctly predicted No",
+            "Incorrectly predicted No"
+        ],
+        "correctAnswer": "Incorrectly predicted Yes",
+        "explanation": "False Positive: Model incorrectly predicted positive (Type I error).",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Accuracy is?",
+        "options": [
+            "Correct Predictions / Total",
+            "Wrong / Total",
+            "True Positive / False Positive",
+            "Total / Correct"
+        ],
+        "correctAnswer": "Correct Predictions / Total",
+        "explanation": "Accuracy is the ratio of correct predictions to total predictions.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Confusion Matrix shows?",
+        "options": [
+            "Performance metrics",
+            "Data types",
+            "Algorithm speed",
+            "Memory usage"
+        ],
+        "correctAnswer": "Performance metrics",
+        "explanation": "A Confusion Matrix summarizes the performance of a classification model.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Feature in ML is?",
+        "options": [
+            "Input variable",
+            "Output variable",
+            "Error",
+            "Model"
+        ],
+        "correctAnswer": "Input variable",
+        "explanation": "A Feature is an individual measurable property or characteristic (input).",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Label in ML is?",
+        "options": [
+            "Output variable (Target)",
+            "Input variable",
+            "Noise",
+            "Algorithm"
+        ],
+        "correctAnswer": "Output variable (Target)",
+        "explanation": "The Label is the thing we are predicting (the y variable).",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Bias in ML?",
+        "options": [
+            "Error due to simplifying assumptions",
+            "Complex model error",
+            "Random noise",
+            "Good prediction"
+        ],
+        "correctAnswer": "Error due to simplifying assumptions",
+        "explanation": "Bias is error introduced by approximating a real-world problem.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Variance in ML?",
+        "options": [
+            "Sensitivity to training data",
+            "Simplifying error",
+            "Random noise",
+            "Constant error"
+        ],
+        "correctAnswer": "Sensitivity to training data",
+        "explanation": "Variance captures how much the model changes with different training data.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "KNN stands for?",
+        "options": [
+            "K-Nearest Neighbors",
+            "K-New Nodes",
+            "K-Neural Nets",
+            "Kernel Neural Network"
+        ],
+        "correctAnswer": "K-Nearest Neighbors",
+        "explanation": "KNN classifies data based on its closest neighbors.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "SVM stands for?",
+        "options": [
+            "Support Vector Machine",
+            "Super Vector Machine",
+            "Simple Vector Machine",
+            "Smart Virtual Machine"
+        ],
+        "correctAnswer": "Support Vector Machine",
+        "explanation": "SVM is a supervised learning model for classification and regression.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "PCA stands for?",
+        "options": [
+            "Principal Component Analysis",
+            "Primary Code Analysis",
+            "Prime Component Algo",
+            "Private Cloud Access"
+        ],
+        "correctAnswer": "Principal Component Analysis",
+        "explanation": "PCA is a dimensionality reduction technique.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Gradient Descent is?",
+        "options": [
+            "Optimization Algorithm",
+            "Sorting Algorithm",
+            "Clustering Algo",
+            "Database"
+        ],
+        "correctAnswer": "Optimization Algorithm",
+        "explanation": "Gradient Descent is used to minimize the cost function.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Epoch means?",
+        "options": [
+            "One pass through full dataset",
+            "One batch",
+            "One second",
+            "One error"
+        ],
+        "correctAnswer": "One pass through full dataset",
+        "explanation": "An epoch is one complete cycle through the full training dataset.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Batch size means?",
+        "options": [
+            "Samples processed before update",
+            "Total dataset size",
+            "Model size",
+            "Learning rate"
+        ],
+        "correctAnswer": "Samples processed before update",
+        "explanation": "Batch size defines the number of samples to work through before updating parameters.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Learning Rate controls?",
+        "options": [
+            "Step size in optimization",
+            "Speed of computer",
+            "Amount of data",
+            "Model accuracy"
+        ],
+        "correctAnswer": "Step size in optimization",
+        "explanation": "Learning rate determines how large the updates are to the weights.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Sigmoid function output range?",
+        "options": [
+            "0 to 1",
+            "-1 to 1",
+            "0 to Infinity",
+            "-Infinity to Infinity"
+        ],
+        "correctAnswer": "0 to 1",
+        "explanation": "Sigmoid squashes the output between 0 and 1, usually for probability.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "ReLU stands for?",
+        "options": [
+            "Rectified Linear Unit",
+            "Real Linear Unit",
+            "Recursive Linear Unit",
+            "Random Linear Unit"
+        ],
+        "correctAnswer": "Rectified Linear Unit",
+        "explanation": "ReLU is a popular activation function (f(x) = max(0, x)).",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Pandas library is for?",
+        "options": [
+            "Data Manipulation",
+            "Game Dev",
+            "Web Dev",
+            "Graphics"
+        ],
+        "correctAnswer": "Data Manipulation",
+        "explanation": "Pandas provides high-performance data structures for data analysis.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "NumPy library is for?",
+        "options": [
+            "Numerical Computation",
+            "Web Dev",
+            "Networking",
+            "Database"
+        ],
+        "correctAnswer": "Numerical Computation",
+        "explanation": "NumPy is the fundamental package for scientific computing with Python.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Matplotlib library is for?",
+        "options": [
+            "Data Visualization/Plotting",
+            "Music",
+            "Video",
+            "Security"
+        ],
+        "correctAnswer": "Data Visualization/Plotting",
+        "explanation": "Matplotlib is used for creating static, animated, and interactive visualizations.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Jupyter Notebook is?",
+        "options": [
+            "IDE for Data Science",
+            "Music Player",
+            "Web Browser",
+            "Game"
+        ],
+        "correctAnswer": "IDE for Data Science",
+        "explanation": "Jupyter Notebook is typically used for interactive data science work.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "CSV stands for?",
+        "options": [
+            "Comma Separated Values",
+            "Common Separated Values",
+            "Computer Saved Values",
+            "Code Save Value"
+        ],
+        "correctAnswer": "Comma Separated Values",
+        "explanation": "CSV is a simple file format used to store tabular data.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "One-Hot Encoding is used for?",
+        "options": [
+            "Categorical Data",
+            "Numerical Data",
+            "Images",
+            "Audio"
+        ],
+        "correctAnswer": "Categorical Data",
+        "explanation": "One-Hot encoding converts categorical variables into a binary matrix.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Train-Test Split ratio is typically?",
+        "options": [
+            "80-20",
+            "50-50",
+            "10-90",
+            "100-0"
+        ],
+        "correctAnswer": "80-20",
+        "explanation": "80/20 is a common rule of thumb for splitting data.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Cross Validation is for?",
+        "options": [
+            "Validating model performance",
+            "Creating data",
+            "Deleting data",
+            "Sorting data"
+        ],
+        "correctAnswer": "Validating model performance",
+        "explanation": "Cross-validation assesses how the results will generalize to an independent data set.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Ensemble learning means?",
+        "options": [
+            "Using multiple models",
+            "Using one model",
+            "Using no model",
+            "Using fast computer"
+        ],
+        "correctAnswer": "Using multiple models",
+        "explanation": "Ensemble methods use multiple learning algorithms to obtain better performance.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Random Forest uses?",
+        "options": [
+            "Many Decision Trees",
+            "One Tree",
+            "Neural Net",
+            "Linear Regression"
+        ],
+        "correctAnswer": "Many Decision Trees",
+        "explanation": "Random Forest operates by constructing a multitude of decision trees.",
+        "category": "Machine Learning",
+        "difficulty": "Easy"
+    }
+]

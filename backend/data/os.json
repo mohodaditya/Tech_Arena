@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "Full form of OS?",
+        "options": [
+            "Operating System",
+            "Open Software",
+            "Optical Sensor",
+            "Operation Source"
+        ],
+        "correctAnswer": "Operating System",
+        "explanation": "OS stands for Operating System.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Core of the OS is called?",
+        "options": [
+            "Shell",
+            "Kernel",
+            "Core",
+            "Processor"
+        ],
+        "correctAnswer": "Kernel",
+        "explanation": "The Kernel is the central core of an OS, converting commands to hardware instructions.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Interface between user and kernel?",
+        "options": [
+            "Kernel",
+            "Shell",
+            "Hardware",
+            "Memory"
+        ],
+        "correctAnswer": "Shell",
+        "explanation": "The shell is the user interface to access the services of the OS.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Example of an OS?",
+        "options": [
+            "Chrome",
+            "Python",
+            "Windows",
+            "Intel"
+        ],
+        "correctAnswer": "Windows",
+        "explanation": "Windows is a popular Operating System developed by Microsoft.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Not an OS?",
+        "options": [
+            "Linux",
+            "Windows",
+            "MacOS",
+            "Oracle"
+        ],
+        "correctAnswer": "Oracle",
+        "explanation": "Oracle is typically known for its Database software, not as an OS.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Does OS manage memory?",
+        "options": [
+            "Yes",
+            "No",
+            "Only ROM",
+            "Only Cache"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "Memory management is a key function of an OS.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Program in execution is called?",
+        "options": [
+            "Process",
+            "Task",
+            "Job",
+            "File"
+        ],
+        "correctAnswer": "Process",
+        "explanation": "A process is an active program currently executing.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Lightweight process is called?",
+        "options": [
+            "Thread",
+            "Core",
+            "Kernel",
+            "Service"
+        ],
+        "correctAnswer": "Thread",
+        "explanation": "A thread is the smallest unit of execution, also known as a lightweight process.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "First process in Linux?",
+        "options": [
+            "init",
+            "start",
+            "boot",
+            "root"
+        ],
+        "correctAnswer": "init",
+        "explanation": "init (or systemd) is the first process started during booting.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Loading OS into memory?",
+        "options": [
+            "Booting",
+            "Starting",
+            "Loading",
+            "Running"
+        ],
+        "correctAnswer": "Booting",
+        "explanation": "Booting is the process of starting a computer and loading the OS.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Cold boot means?",
+        "options": [
+            "Restarting",
+            "Starting from off",
+            "Hibernate",
+            "Sleep"
+        ],
+        "correctAnswer": "Starting from off",
+        "explanation": "Cold boot refers to turning on a computer that was completely off.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Warm boot means?",
+        "options": [
+            "Restarting",
+            "Shutdown",
+            "Sleep",
+            "Power off"
+        ],
+        "correctAnswer": "Restarting",
+        "explanation": "Warm boot refers to restarting a computer that is already running.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "FIFO stands for?",
+        "options": [
+            "First In First Out",
+            "First In Last Out",
+            "Fast In Fast Out",
+            "File In File Out"
+        ],
+        "correctAnswer": "First In First Out",
+        "explanation": "FIFO is a scheduling or queue algorithm: First In, First Out.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "LIFO stands for?",
+        "options": [
+            "Last In First Out",
+            "Last In Fast Out",
+            "Late In First Out",
+            "Low In First Out"
+        ],
+        "correctAnswer": "Last In First Out",
+        "explanation": "LIFO is a stack algorithm: Last In, First Out.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Deadlock condition?",
+        "options": [
+            "Circular Wait",
+            "Linear Wait",
+            "Fast Wait",
+            "No Wait"
+        ],
+        "correctAnswer": "Circular Wait",
+        "explanation": "Circular Wait is one of the necessary conditions for a deadlock.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Situation where two processes wait for each other?",
+        "options": [
+            "Deadlock",
+            "Livelock",
+            "Starvation",
+            "Crash"
+        ],
+        "correctAnswer": "Deadlock",
+        "explanation": "Deadlock occurs when processes are blocked waiting for each other.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Switching CPU to another process?",
+        "options": [
+            "Context Switching",
+            "Mode Switching",
+            "Process Switching",
+            "Code Switching"
+        ],
+        "correctAnswer": "Context Switching",
+        "explanation": "Context switching is saving the state of a process so another can run.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Mechanism to handle multiple tasks?",
+        "options": [
+            "Multitasking",
+            "Multiprocessing",
+            "Multithreading",
+            "Programming"
+        ],
+        "correctAnswer": "Multitasking",
+        "explanation": "Multitasking allows an OS to perform multiple tasks simultaneously.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Volatile memory?",
+        "options": [
+            "ROM",
+            "RAM",
+            "HDD",
+            "SSD"
+        ],
+        "correctAnswer": "RAM",
+        "explanation": "RAM is volatile; it loses data when power is turned off.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Non-volatile memory?",
+        "options": [
+            "RAM",
+            "Cache",
+            "ROM",
+            "Register"
+        ],
+        "correctAnswer": "ROM",
+        "explanation": "ROM retains data even when power is off.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Fastest memory?",
+        "options": [
+            "RAM",
+            "Register",
+            "Cache",
+            "HDD"
+        ],
+        "correctAnswer": "Register",
+        "explanation": "CPU Registers are the fastest type of memory.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Memory used as extension of RAM?",
+        "options": [
+            "Virtual Memory",
+            "Cache",
+            "Buffer",
+            "Register"
+        ],
+        "correctAnswer": "Virtual Memory",
+        "explanation": "Virtual Memory uses disk space to simulate extra RAM.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Divides memory into fixed size blocks?",
+        "options": [
+            "Paging",
+            "Segmentation",
+            "Fragmentation",
+            "Swapping"
+        ],
+        "correctAnswer": "Paging",
+        "explanation": "Paging divides memory into fixed-size chunks called pages.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Divides memory into variable size segments?",
+        "options": [
+            "Paging",
+            "Segmentation",
+            "Paging",
+            "Caching"
+        ],
+        "correctAnswer": "Segmentation",
+        "explanation": "Segmentation divides memory into variable-sized logical segments.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Problem of unused memory space?",
+        "options": [
+            "Fragmentation",
+            "Segmentation",
+            "Paging",
+            "Compaction"
+        ],
+        "correctAnswer": "Fragmentation",
+        "explanation": "Fragmentation refers to wasted memory space.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "OS for mobile phones?",
+        "options": [
+            "Android",
+            "Windows Server",
+            "Linux Mint",
+            "Kali"
+        ],
+        "correctAnswer": "Android",
+        "explanation": "Android is the most common OS for mobile devices.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Is Linux open source?",
+        "options": [
+            "Yes",
+            "No",
+            "Partially",
+            "Paid only"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "Linux is free and open-source software.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "File extension for executable in Windows?",
+        "options": [
+            ".txt",
+            ".exe",
+            ".jpg",
+            ".doc"
+        ],
+        "correctAnswer": ".exe",
+        "explanation": ".exe is the standard extension for executable files in Windows.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Command to list files in Linux?",
+        "options": [
+            "dir",
+            "list",
+            "ls",
+            "show"
+        ],
+        "correctAnswer": "ls",
+        "explanation": "'ls' is the command to list directory contents.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Command to change directory?",
+        "options": [
+            "cd",
+            "mv",
+            "cp",
+            "rm"
+        ],
+        "correctAnswer": "cd",
+        "explanation": "'cd' stands for Change Directory.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Command to make directory?",
+        "options": [
+            "mkdir",
+            "newdir",
+            "create",
+            "md"
+        ],
+        "correctAnswer": "mkdir",
+        "explanation": "'mkdir' stands for Make Directory.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Root user in Linux?",
+        "options": [
+            "admin",
+            "root",
+            "system",
+            "superuser"
+        ],
+        "correctAnswer": "root",
+        "explanation": "'root' is the superuser account in Linux with full privileges.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "GUI stands for?",
+        "options": [
+            "Graphical User Interface",
+            "General User Interface",
+            "Global User Interface",
+            "Graphical Used Interface"
+        ],
+        "correctAnswer": "Graphical User Interface",
+        "explanation": "GUI allows users to interact with the OS using graphical icons.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "CLI stands for?",
+        "options": [
+            "Command Line Interface",
+            "Common Line Interface",
+            "Control Line Interface",
+            "Code Line Interface"
+        ],
+        "correctAnswer": "Command Line Interface",
+        "explanation": "CLI is a text-based interface for entering commands.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "System call used to create process?",
+        "options": [
+            "fork()",
+            "exec()",
+            "wait()",
+            "exit()"
+        ],
+        "correctAnswer": "fork()",
+        "explanation": "fork() is the system call used to create a new process.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Semaphore is used for?",
+        "options": [
+            "Synchronization",
+            "Scheduling",
+            "Memory",
+            "I/O"
+        ],
+        "correctAnswer": "Synchronization",
+        "explanation": "Semaphores are variables used to synchronize access to shared resources.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Binary semaphore values?",
+        "options": [
+            "0, 1",
+            "0, -1",
+            "1, 2",
+            "True, False"
+        ],
+        "correctAnswer": "0, 1",
+        "explanation": "Binary semaphores can only have values 0 or 1.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Moving process from RAM to Disk?",
+        "options": [
+            "Swapping",
+            "Paging",
+            "Caching",
+            "Buffering"
+        ],
+        "correctAnswer": "Swapping",
+        "explanation": "Swapping moves inactive processes to disk to free up RAM.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "BIOS stands for?",
+        "options": [
+            "Basic Input Output System",
+            "Binary Input Output System",
+            "Basic Internal OS",
+            "Boot Input Output System"
+        ],
+        "correctAnswer": "Basic Input Output System",
+        "explanation": "BIOS initializes hardware during booting.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Where is BIOS stored?",
+        "options": [
+            "ROM",
+            "RAM",
+            "HDD",
+            "Cache"
+        ],
+        "correctAnswer": "ROM",
+        "explanation": "BIOS is stored in Read-Only Memory (ROM) on the motherboard.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Single user OS?",
+        "options": [
+            "MS-DOS",
+            "Unix",
+            "Linux",
+            "Windows Server"
+        ],
+        "correctAnswer": "MS-DOS",
+        "explanation": "MS-DOS is designed for a single user.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Multi-user OS?",
+        "options": [
+            "Unix",
+            "MS-DOS",
+            "Palm OS",
+            "None"
+        ],
+        "correctAnswer": "Unix",
+        "explanation": "Unix is a powerful multi-user operating system.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Technique to increase apparent memory?",
+        "options": [
+            "Virtual Memory",
+            "Cache",
+            "RAM",
+            "ROM"
+        ],
+        "correctAnswer": "Virtual Memory",
+        "explanation": "Virtual Memory simulates larger RAM using disk storage.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which is a Real-Time OS?",
+        "options": [
+            "RTOS",
+            "Windows",
+            "MacOS",
+            "Android"
+        ],
+        "correctAnswer": "RTOS",
+        "explanation": "RTOS (Real-Time Operating System) serves real-time applications.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "PCB stands for?",
+        "options": [
+            "Process Control Block",
+            "Program Control Block",
+            "Process Counter Block",
+            "Process Control Board"
+        ],
+        "correctAnswer": "Process Control Block",
+        "explanation": "PCB is a data structure storing information about a process.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "When process finishes, it goes to?",
+        "options": [
+            "Terminated",
+            "Ready",
+            "Running",
+            "Waiting"
+        ],
+        "correctAnswer": "Terminated",
+        "explanation": "A finished process enters the Terminated state.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Ready state means?",
+        "options": [
+            "Waiting for CPU",
+            "Waiting for I/O",
+            "Running",
+            "Terminated"
+        ],
+        "correctAnswer": "Waiting for CPU",
+        "explanation": "Ready means the process is loaded and waiting for the CPU.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Waiting state means?",
+        "options": [
+            "Waiting for I/O",
+            "Waiting for CPU",
+            "Running",
+            "New"
+        ],
+        "correctAnswer": "Waiting for I/O",
+        "explanation": "Waiting (Blocked) means the process is waiting for an event like I/O.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "FCFS scheduling is?",
+        "options": [
+            "Non-preemptive",
+            "Preemptive",
+            "Complex",
+            "Fast"
+        ],
+        "correctAnswer": "Non-preemptive",
+        "explanation": "FCFS (First Come First Served) runs processes until they finish or block.",
+        "category": "OS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Round Robin is used for?",
+        "options": [
+            "Time Sharing",
+            "Batch Processing",
+            "Real Time",
+            "Single User"
+        ],
+        "correctAnswer": "Time Sharing",
+        "explanation": "Round Robin assigns time slices to processes, ideal for time-sharing.",
+        "category": "OS",
+        "difficulty": "Easy"
+    }
+]

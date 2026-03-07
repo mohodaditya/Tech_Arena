@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "What is currency of India?",
+        "options": [
+            "Rupee",
+            "Dollar",
+            "Yen",
+            "Euro"
+        ],
+        "correctAnswer": "Rupee",
+        "explanation": "The official currency of India is the Indian Rupee (INR).",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What is currency of USA?",
+        "options": [
+            "Dollar",
+            "Rupee",
+            "Pound",
+            "Euro"
+        ],
+        "correctAnswer": "Dollar",
+        "explanation": "The official currency of USA is the US Dollar (USD).",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Place to keep money safe?",
+        "options": [
+            "Bank",
+            "Under bed",
+            "Pocket",
+            "Shoe"
+        ],
+        "correctAnswer": "Bank",
+        "explanation": "Banks provide a secure place to store money.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Machine to withdraw cash?",
+        "options": [
+            "ATM",
+            "Vending Machine",
+            "Printer",
+            "Calculator"
+        ],
+        "correctAnswer": "ATM",
+        "explanation": "An ATM (Automated Teller Machine) dispenses cash.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Full form of ATM?",
+        "options": [
+            "Automated Teller Machine",
+            "Any Time Money",
+            "All Time Money",
+            "Auto Transaction Mode"
+        ],
+        "correctAnswer": "Automated Teller Machine",
+        "explanation": "ATM stands for Automated Teller Machine.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Money borrowed from bank?",
+        "options": [
+            "Loan",
+            "Gift",
+            "Bonus",
+            "Salary"
+        ],
+        "correctAnswer": "Loan",
+        "explanation": "A loan is money borrowed that must be paid back with interest.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Extra money paid on loan?",
+        "options": [
+            "Interest",
+            "Principal",
+            "Tax",
+            "Fine"
+        ],
+        "correctAnswer": "Interest",
+        "explanation": "Interest is the cost of borrowing money.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Money earned from job?",
+        "options": [
+            "Salary/Wage",
+            "Loan",
+            "Tax",
+            "Debt"
+        ],
+        "correctAnswer": "Salary/Wage",
+        "explanation": "Earnings from employment are called Salary or Wages.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Part of salary paid to govt?",
+        "options": [
+            "Tax",
+            "Fine",
+            "Fee",
+            "Loan"
+        ],
+        "correctAnswer": "Tax",
+        "explanation": "Tax is a mandatory contribution to state revenue.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Stock market place in India?",
+        "options": [
+            "NSE/BSE",
+            "Market",
+            "Mall",
+            "Bank"
+        ],
+        "correctAnswer": "NSE/BSE",
+        "explanation": "NSE (National Stock Exchange) and BSE (Bombay Stock Exchange) are major markets.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Ownership in a company?",
+        "options": [
+            "Share/Stock",
+            "Bond",
+            "Loan",
+            "Debenture"
+        ],
+        "correctAnswer": "Share/Stock",
+        "explanation": "A Share represents a unit of ownership in a company.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Rise in prices is called?",
+        "options": [
+            "Inflation",
+            "Deflation",
+            "Recession",
+            "Growth"
+        ],
+        "correctAnswer": "Inflation",
+        "explanation": "Inflation is the rate at which the general level of prices is rising.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Plastic card for payment?",
+        "options": [
+            "Credit/Debit Card",
+            "Aadhar Card",
+            "ID Card",
+            "Sim Card"
+        ],
+        "correctAnswer": "Credit/Debit Card",
+        "explanation": "Debit and Credit cards are used for cashless payments.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "PIN stands for?",
+        "options": [
+            "Personal Identification Number",
+            "Private ID",
+            "Public ID",
+            "Payment ID"
+        ],
+        "correctAnswer": "Personal Identification Number",
+        "explanation": "PIN is a numeric password shared between a user and a system.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "CVV is on which side of card?",
+        "options": [
+            "Back",
+            "Front",
+            "Top",
+            "Bottom"
+        ],
+        "correctAnswer": "Back",
+        "explanation": "CVV is usually found on the back of the card near the signature strip.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "3 digit number on card back?",
+        "options": [
+            "CVV",
+            "PIN",
+            "OTP",
+            "ID"
+        ],
+        "correctAnswer": "CVV",
+        "explanation": "CVV (Card Verification Value) is a 3-digit security code.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Full form of OTP?",
+        "options": [
+            "One Time Password",
+            "One Time Pin",
+            "Only This Password",
+            "On The Phone"
+        ],
+        "correctAnswer": "One Time Password",
+        "explanation": "OTP is a password valid for only one login session or transaction.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Central bank of India?",
+        "options": [
+            "RBI",
+            "SBI",
+            "HDFC",
+            "ICICI"
+        ],
+        "correctAnswer": "RBI",
+        "explanation": "The Reserve Bank of India (RBI) is the central banking institution.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "RBI stands for?",
+        "options": [
+            "Reserve Bank of India",
+            "Rural Bank of India",
+            "Royal Bank of India",
+            "Real Bank of India"
+        ],
+        "correctAnswer": "Reserve Bank of India",
+        "explanation": "RBI stands for Reserve Bank of India.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Investment pooling money?",
+        "options": [
+            "Mutual Fund",
+            "Bank Account",
+            "Locker",
+            "Wallet"
+        ],
+        "correctAnswer": "Mutual Fund",
+        "explanation": "Mutual funds pool money from many investors to purchase securities.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Fixed deposit short form?",
+        "options": [
+            "FD",
+            "RD",
+            "SD",
+            "MD"
+        ],
+        "correctAnswer": "FD",
+        "explanation": "FD stands for Fixed Deposit, a term deposit.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Recurring deposit short form?",
+        "options": [
+            "RD",
+            "FD",
+            "SD",
+            "PD"
+        ],
+        "correctAnswer": "RD",
+        "explanation": "RD stands for Recurring Deposit, usually monthly.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "EMI stands for?",
+        "options": [
+            "Equated Monthly Installment",
+            "Easy Monthly Installment",
+            "Equal Money Installment",
+            "Every Month Installment"
+        ],
+        "correctAnswer": "Equated Monthly Installment",
+        "explanation": "EMI is a fixed payment amount made by a borrower to a lender.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Bull market means?",
+        "options": [
+            "Prices Rising",
+            "Prices Falling",
+            "Stable",
+            "Closed"
+        ],
+        "correctAnswer": "Prices Rising",
+        "explanation": "A Bull market is characterized by rising stock prices.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Bear market means?",
+        "options": [
+            "Prices Falling",
+            "Prices Rising",
+            "Stable",
+            "Open"
+        ],
+        "correctAnswer": "Prices Falling",
+        "explanation": "A Bear market is characterized by falling stock prices.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "IPO stands for?",
+        "options": [
+            "Initial Public Offering",
+            "Indian Public Offer",
+            "Initial Private Offer",
+            "International Public Offer"
+        ],
+        "correctAnswer": "Initial Public Offering",
+        "explanation": "IPO is when a company offers shares to the public for the first time.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Tax on goods and services?",
+        "options": [
+            "GST",
+            "Income Tax",
+            "Property Tax",
+            "Road Tax"
+        ],
+        "correctAnswer": "GST",
+        "explanation": "GST is an indirect tax used in India on the supply of goods and services.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "GST stands for?",
+        "options": [
+            "Goods and Services Tax",
+            "Good Sales Tax",
+            "General Sales Tax",
+            "Govt Service Tax"
+        ],
+        "correctAnswer": "Goods and Services Tax",
+        "explanation": "GST stands for Goods and Services Tax.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "PAN stands for?",
+        "options": [
+            "Permanent Account Number",
+            "Public Account Number",
+            "Private Account Number",
+            "Personal Account number"
+        ],
+        "correctAnswer": "Permanent Account Number",
+        "explanation": "PAN is a unique 10-digit alphanumeric number issued by Tax Dept.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Digital gold is equivalent to?",
+        "options": [
+            "Physical Gold",
+            "Silver",
+            "Diamond",
+            "Paper"
+        ],
+        "correctAnswer": "Physical Gold",
+        "explanation": "Digital gold allows investing in gold without holding physical metal.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Cryptocurrency example?",
+        "options": [
+            "Bitcoin",
+            "Rupee",
+            "Dollar",
+            "Gold"
+        ],
+        "correctAnswer": "Bitcoin",
+        "explanation": "Bitcoin is the most well-known cryptocurrency.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Budget involves?",
+        "options": [
+            "Income and Expenses",
+            "Only Income",
+            "Only Expenses",
+            "Saving only"
+        ],
+        "correctAnswer": "Income and Expenses",
+        "explanation": "A budget is a plan for money covering income and expenses.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Asset is?",
+        "options": [
+            "Something valuable you own",
+            "Debt",
+            "Expense",
+            "Liability"
+        ],
+        "correctAnswer": "Something valuable you own",
+        "explanation": "An asset is a resource with economic value that you own.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Liability is?",
+        "options": [
+            "Something you owe (Debt)",
+            "Income",
+            "Asset",
+            "Profit"
+        ],
+        "correctAnswer": "Something you owe (Debt)",
+        "explanation": "A liability is something you owe to others, like debt.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Profit = ?",
+        "options": [
+            "Revenue - Cost",
+            "Cost - Revenue",
+            "Revenue + Cost",
+            "Cost only"
+        ],
+        "correctAnswer": "Revenue - Cost",
+        "explanation": "Profit is calculated as total revenue minus total cost.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Fiscal year starts in India?",
+        "options": [
+            "April 1",
+            "January 1",
+            "March 1",
+            "June 1"
+        ],
+        "correctAnswer": "April 1",
+        "explanation": "The financial year in India runs from April 1 to March 31.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "SIP stands for?",
+        "options": [
+            "Systematic Investment Plan",
+            "Simple Investment Plan",
+            "Safe Investment Plan",
+            "Smart Investment Plan"
+        ],
+        "correctAnswer": "Systematic Investment Plan",
+        "explanation": "SIP allows investing small amounts regularly in mutual funds.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "KYC stands for?",
+        "options": [
+            "Know Your Customer",
+            "Know Your Cash",
+            "Keep Your Cash",
+            "Know Your Credit"
+        ],
+        "correctAnswer": "Know Your Customer",
+        "explanation": "KYC is a process to verify the identity of customers.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "UPI stands for?",
+        "options": [
+            "Unified Payments Interface",
+            "Union Payment Interface",
+            "Universal Payment Interface",
+            "User Payment Interface"
+        ],
+        "correctAnswer": "Unified Payments Interface",
+        "explanation": "UPI is a real-time payment system in India.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "App used for UPI?",
+        "options": [
+            "GPay/PhonePe",
+            "Facebook",
+            "Instagram",
+            "Netflix"
+        ],
+        "correctAnswer": "GPay/PhonePe",
+        "explanation": "Google Pay and PhonePe are popular UPI apps.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Insurance protects against?",
+        "options": [
+            "Risk/Loss",
+            "Profit",
+            "Savings",
+            "Inflation"
+        ],
+        "correctAnswer": "Risk/Loss",
+        "explanation": "Insurance provides financial protection against loss.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Premium is paid for?",
+        "options": [
+            "Insurance",
+            "Bank Account",
+            "Sim Card",
+            "Email"
+        ],
+        "correctAnswer": "Insurance",
+        "explanation": "A premium is the amount paid for an insurance policy.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Sensex belongs to?",
+        "options": [
+            "BSE",
+            "NSE",
+            "RBI",
+            "SBI"
+        ],
+        "correctAnswer": "BSE",
+        "explanation": "Sensex is the benchmark index of the Bombay Stock Exchange (BSE).",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Nifty belongs to?",
+        "options": [
+            "NSE",
+            "BSE",
+            "RBI",
+            "SBI"
+        ],
+        "correctAnswer": "NSE",
+        "explanation": "Nifty is the benchmark index of the National Stock Exchange (NSE).",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Cheque is issued by?",
+        "options": [
+            "Bank Account Holder",
+            "Govt",
+            "Police",
+            "School"
+        ],
+        "correctAnswer": "Bank Account Holder",
+        "explanation": "A cheque is issued by the account holder to pay someone.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Bounced cheque means?",
+        "options": [
+            "Insufficient funds",
+            "Good cheque",
+            "Paid cheque",
+            "New cheque"
+        ],
+        "correctAnswer": "Insufficient funds",
+        "explanation": "A cheque bounces when there isn't enough money in the account.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Credit score shows?",
+        "options": [
+            "Creditworthiness",
+            "Bank balance",
+            "Salary",
+            "Age"
+        ],
+        "correctAnswer": "Creditworthiness",
+        "explanation": "A credit score indicates how likely you are to repay debts.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Good credit score is above?",
+        "options": [
+            "750",
+            "300",
+            "100",
+            "500"
+        ],
+        "correctAnswer": "750",
+        "explanation": "A score above 750 is generally considered good/excellent.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Forex stands for?",
+        "options": [
+            "Foreign Exchange",
+            "Foreign Export",
+            "For Exchange",
+            "Foreign Exit"
+        ],
+        "correctAnswer": "Foreign Exchange",
+        "explanation": "Forex refers to the market for trading foreign currencies.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Headquarters of World Bank?",
+        "options": [
+            "Washington DC",
+            "New York",
+            "London",
+            "Geneva"
+        ],
+        "correctAnswer": "Washington DC",
+        "explanation": "The World Bank is headquartered in Washington, D.C.",
+        "category": "Finance",
+        "difficulty": "Easy"
+    }
+]

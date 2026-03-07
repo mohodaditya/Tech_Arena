@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "Which data structure follows FIFO (First In First Out)?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Tree",
+            "Graph"
+        ],
+        "correctAnswer": "Queue",
+        "explanation": "A Queue adds elements to the back and removes from the front, like a line of people.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n^2)",
+            "O(1)"
+        ],
+        "correctAnswer": "O(log n)",
+        "explanation": "Binary search divides the search interval in half each time, leading to logarithmic complexity.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Best average case sorting algorithm?",
+        "options": [
+            "Bubble",
+            "Quick",
+            "Insertion",
+            "Selection"
+        ],
+        "correctAnswer": "Quick",
+        "explanation": "Quick Sort is generally the fastest in practice with O(n log n) average complexity.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Worst case time complexity of Quick Sort?",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(1)"
+        ],
+        "correctAnswer": "O(n^2)",
+        "explanation": "Quick Sort degrades to O(n^2) if the pivot choice is poor (e.g., already sorted array).",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Data structure for recursion?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Heap",
+            "Tree"
+        ],
+        "correctAnswer": "Stack",
+        "explanation": "Recursion relies on the call stack to keep track of function calls.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data structure for Level Order Traversal?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Graph",
+            "Array"
+        ],
+        "correctAnswer": "Queue",
+        "explanation": "Level order traversal uses a Queue to process nodes level by level.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Height of a balanced binary tree with N nodes?",
+        "options": [
+            "O(N)",
+            "O(log N)",
+            "O(N^2)",
+            "O(1)"
+        ],
+        "correctAnswer": "O(log N)",
+        "explanation": "A balanced binary tree has a height logarithmic to the number of nodes.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Which is a linear data structure?",
+        "options": [
+            "Tree",
+            "Graph",
+            "Array",
+            "Heap"
+        ],
+        "correctAnswer": "Array",
+        "explanation": "An Array arranges elements sequentially in linear order.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which is NOT a linear data structure?",
+        "options": [
+            "Array",
+            "Linked List",
+            "Stack",
+            "Tree"
+        ],
+        "correctAnswer": "Tree",
+        "explanation": "A Tree is a hierarchical (non-linear) data structure.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Elements in a Stack are accessed in which order?",
+        "options": [
+            "FIFO",
+            "LIFO",
+            "Random",
+            "Sorted"
+        ],
+        "correctAnswer": "LIFO",
+        "explanation": "Stack follows Last In First Out; the last item added is the first one removed.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Insertion in a Stack is called?",
+        "options": [
+            "Pop",
+            "Push",
+            "Poll",
+            "Peek"
+        ],
+        "correctAnswer": "Push",
+        "explanation": "Push is the standard term for adding an item to the top of a stack.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Deletion from a Stack is called?",
+        "options": [
+            "Pop",
+            "Push",
+            "Poll",
+            "Peek"
+        ],
+        "correctAnswer": "Pop",
+        "explanation": "Pop is the standard term for removing an item from the top of a stack.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Time complexity to access element in Array by index?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "correctAnswer": "O(1)",
+        "explanation": "Arrays provide constant time access to any element if the index is known.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Time complexity to access data in Linked List?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "correctAnswer": "O(n)",
+        "explanation": "You must traverse from the head to finds an element in a Linked List, taking linear time.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Which sorting algo is stable?",
+        "options": [
+            "Quick Sort",
+            "Merge Sort",
+            "Heap Sort",
+            "Selection Sort"
+        ],
+        "correctAnswer": "Merge Sort",
+        "explanation": "Merge Sort preserves the relative order of equal elements, making it stable.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Which sorting algo is NOT stable?",
+        "options": [
+            "Merge Sort",
+            "Insertion Sort",
+            "Bubble Sort",
+            "Quick Sort"
+        ],
+        "correctAnswer": "Quick Sort",
+        "explanation": "Quick Sort acts by swapping elements, which can change relative order of equal items.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Max number of nodes in binary tree of height h?",
+        "options": [
+            "2^h",
+            "2^(h+1) - 1",
+            "2h",
+            "h^2"
+        ],
+        "correctAnswer": "2^(h+1) - 1",
+        "explanation": "A perfect binary tree of height h has 2^(h+1) - 1 total nodes.",
+        "category": "DSA",
+        "difficulty": "Hard"
+    },
+    {
+        "questionText": "Min number of nodes in binary tree of height h?",
+        "options": [
+            "h",
+            "h+1",
+            "2h",
+            "2^h"
+        ],
+        "correctAnswer": "h+1",
+        "explanation": "In a skewed binary tree, the minimum number of nodes for height h is h+1.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Which traversal yields sorted data in BST?",
+        "options": [
+            "Preorder",
+            "Postorder",
+            "Inorder",
+            "Level Order"
+        ],
+        "correctAnswer": "Inorder",
+        "explanation": "Inorder traversal visits left, then root, then right, producing sorted output for a BST.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Postorder Traversal order?",
+        "options": [
+            "Left Right Root",
+            "Root Left Right",
+            "Left Root Right",
+            "Right Left Root"
+        ],
+        "correctAnswer": "Left Right Root",
+        "explanation": "Postorder visits children first (Left, Right) and then the Root.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Preorder Traversal order?",
+        "options": [
+            "Left Right Root",
+            "Root Left Right",
+            "Left Root Right",
+            "Right Left Root"
+        ],
+        "correctAnswer": "Root Left Right",
+        "explanation": "Preorder visits Root first, then Left, then Right.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Number of edges in a tree with N nodes?",
+        "options": [
+            "N",
+            "N-1",
+            "N+1",
+            "2N"
+        ],
+        "correctAnswer": "N-1",
+        "explanation": "A tree with N nodes always has exactly N-1 edges.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which graph traversal uses a Stack?",
+        "options": [
+            "BFS",
+            "DFS",
+            "Dijkstra",
+            "Prim"
+        ],
+        "correctAnswer": "DFS",
+        "explanation": "Depth First Search (DFS) uses a Stack (or recursion) to explore deeply.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Which graph traversal uses a Queue?",
+        "options": [
+            "BFS",
+            "DFS",
+            "Kruskal",
+            "Bellman Ford"
+        ],
+        "correctAnswer": "BFS",
+        "explanation": "Breadth First Search (BFS) uses a Queue to explore neighbors level by level.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Algorithm for shortest path in unweighted graph?",
+        "options": [
+            "DFS",
+            "BFS",
+            "Dijkstra",
+            "Prim"
+        ],
+        "correctAnswer": "BFS",
+        "explanation": "BFS is guaranteed to find lightness path in an unweighted graph.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Algorithm for shortest path with positive weights?",
+        "options": [
+            "Bellman Ford",
+            "Dijkstra",
+            "Floyd Warshall",
+            "Prim"
+        ],
+        "correctAnswer": "Dijkstra",
+        "explanation": "Dijkstra's algorithm efficiently finds shortest paths in graphs with non-negative weights.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Algorithm for shortest path with negative weights?",
+        "options": [
+            "Dijkstra",
+            "Bellman Ford",
+            "BFS",
+            "DFS"
+        ],
+        "correctAnswer": "Bellman Ford",
+        "explanation": "Bellman Ford can handle negative edge weights, unlike Dijkstra.",
+        "category": "DSA",
+        "difficulty": "Hard"
+    },
+    {
+        "questionText": "Time complexity of Merge Sort?",
+        "options": [
+            "O(n)",
+            "O(n^2)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "correctAnswer": "O(n log n)",
+        "explanation": "Merge Sort always divides the array in half and merges, taking O(n log n) time.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Space complexity of Merge Sort?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "correctAnswer": "O(n)",
+        "explanation": "Merge Sort requires O(n) auxiliary space for the temporary arrays.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "In-place sorting algorithm?",
+        "options": [
+            "Merge Sort",
+            "Heap Sort",
+            "Radix Sort",
+            "Count Sort"
+        ],
+        "correctAnswer": "Heap Sort",
+        "explanation": "Heap Sort sorts the array in-place without needing O(n) extra space.",
+        "category": "DSA",
+        "difficulty": "Hard"
+    },
+    {
+        "questionText": "Which is faster for large datasets?",
+        "options": [
+            "Insertion Sort",
+            "Bubble Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ],
+        "correctAnswer": "Quick Sort",
+        "explanation": "Quick Sort is optimized for speed and works very well on large datasets.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Binary Search requires array to be?",
+        "options": [
+            "Sorted",
+            "Unsorted",
+            "Large",
+            "Small"
+        ],
+        "correctAnswer": "Sorted",
+        "explanation": "Binary search relies on the order of elements to eliminate half the array.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data structure for Undo mechanism?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Tree",
+            "Graph"
+        ],
+        "correctAnswer": "Stack",
+        "explanation": "Undo operations reverse the most recent action, making LIFO (Stack) ideal.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data structure for Printer spooler?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Tree",
+            "Graph"
+        ],
+        "correctAnswer": "Queue",
+        "explanation": "Jobs are printed in the order they are received (FIFO), so a Queue is used.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Circular Queue is also known as?",
+        "options": [
+            "Ring Buffer",
+            "Circle",
+            "Round Stack",
+            "Loop"
+        ],
+        "correctAnswer": "Ring Buffer",
+        "explanation": "A Circular Queue connects the end back to the start, like a ring.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Evaluate postfix expression using?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Tree",
+            "Graph"
+        ],
+        "correctAnswer": "Stack",
+        "explanation": "A Stack is used to store operands while evaluating postfix expressions.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Convert infix to postfix using?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Tree",
+            "Graph"
+        ],
+        "correctAnswer": "Stack",
+        "explanation": "A Stack holds operators to ensure correct precedence during conversion.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Nodes in Doubly Linked List have pointers?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+        ],
+        "correctAnswer": "2",
+        "explanation": "Doubly linked list nodes point to both the next and previous nodes.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Finding cycle in Linked List?",
+        "options": [
+            "Floyd's Cycle Algo",
+            "BFS",
+            "DFS",
+            "Binary Search"
+        ],
+        "correctAnswer": "Floyd's Cycle Algo",
+        "explanation": "Floyd's Cycle Detection (Tortoise and Hare) is the standard algo for cycles.",
+        "category": "DSA",
+        "difficulty": "Hard"
+    },
+    {
+        "questionText": "Data structure for dictionary implementation?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Trie",
+            "Array"
+        ],
+        "correctAnswer": "Trie",
+        "explanation": "Tries (Prefix Trees) are optimized for dictionary and prefix-based searches.",
+        "category": "DSA",
+        "difficulty": "Hard"
+    },
+    {
+        "questionText": "Hash Table search time complexity (avg)?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(1)",
+            "O(n^2)"
+        ],
+        "correctAnswer": "O(1)",
+        "explanation": "Hash Tables provide O(1) average time complexity for lookups.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Collision resolution technique?",
+        "options": [
+            "Chaining",
+            "Sorting",
+            "Merging",
+            "Splitting"
+        ],
+        "correctAnswer": "Chaining",
+        "explanation": "Chaining uses linked lists to store multiple items at the same hash index.",
+        "category": "DSA",
+        "difficulty": "Hard"
+    },
+    {
+        "questionText": "BST property for left child?",
+        "options": [
+            "Greater than root",
+            "Equal to root",
+            "Less than root",
+            "Any value"
+        ],
+        "correctAnswer": "Less than root",
+        "explanation": "In a BST, all left descendants must be less than the node.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Full Binary Tree means?",
+        "options": [
+            "0 or 2 children",
+            "1 child",
+            "0 children",
+            "2 children only"
+        ],
+        "correctAnswer": "0 or 2 children",
+        "explanation": "A full binary tree is where every node has either 0 or 2 children.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Heap data structure is a?",
+        "options": [
+            "Complete Binary Tree",
+            "Full Binary Tree",
+            "BST",
+            "Graph"
+        ],
+        "correctAnswer": "Complete Binary Tree",
+        "explanation": "Heaps are implemented as Complete Binary Trees to ensure efficient use of space.",
+        "category": "DSA",
+        "difficulty": "Hard"
+    },
+    {
+        "questionText": "Max Heap property?",
+        "options": [
+            "Parent >= Children",
+            "Parent <= Children",
+            "Parent == Children",
+            "No order"
+        ],
+        "correctAnswer": "Parent >= Children",
+        "explanation": "In a Max Heap, every parent node is greater than or equal to its children.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Graph representation using 2D array?",
+        "options": [
+            "Adjacency Matrix",
+            "Adjacency List",
+            "Edge List",
+            "Incidence Matrix"
+        ],
+        "correctAnswer": "Adjacency Matrix",
+        "explanation": "An Adjacency Matrix uses a 2D array to represent connections between nodes.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Graph representation using Linked List?",
+        "options": [
+            "Adjacency Matrix",
+            "Adjacency List",
+            "Edge List",
+            "Incidence Matrix"
+        ],
+        "correctAnswer": "Adjacency List",
+        "explanation": "An Adjacency List uses a list of linked lists to store neighbors.",
+        "category": "DSA",
+        "difficulty": "Medium"
+    },
+    {
+        "questionText": "Topological Sort applies to?",
+        "options": [
+            "DAG",
+            "Cyclic Graph",
+            "Undirected Graph",
+            "Tree"
+        ],
+        "correctAnswer": "DAG",
+        "explanation": "Topological sort requires a Directed Acyclic Graph (DAG) to order dependencies.",
+        "category": "DSA",
+        "difficulty": "Hard"
+    },
+    {
+        "questionText": "MST stands for?",
+        "options": [
+            "Max Spanning Tree",
+            "Min Spanning Tree",
+            "Most Sorted Tree",
+            "Min Sorted Tree"
+        ],
+        "correctAnswer": "Min Spanning Tree",
+        "explanation": "MST stands for Minimum Spanning Tree, a tree connecting all nodes with min weight.",
+        "category": "DSA",
+        "difficulty": "Easy"
+    }
+]

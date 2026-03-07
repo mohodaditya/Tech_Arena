@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "What does CN stand for?",
+        "options": [
+            "Computer Network",
+            "Common Network",
+            "Central Network",
+            "Core Network"
+        ],
+        "correctAnswer": "Computer Network",
+        "explanation": "CN stands for Computer Network.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What is a network?",
+        "options": [
+            "Interconnected computers",
+            "A single computer",
+            "A USB drive",
+            "A monitor"
+        ],
+        "correctAnswer": "Interconnected computers",
+        "explanation": "A network is a set of computers connected to share resources.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which device connects multiple networks?",
+        "options": [
+            "Router",
+            "Switch",
+            "Hub",
+            "Repeater"
+        ],
+        "correctAnswer": "Router",
+        "explanation": "A Router connects different networks and directs traffic between them.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which device connects devices in a LAN?",
+        "options": [
+            "Switch",
+            "Router",
+            "Gateway",
+            "Firewall"
+        ],
+        "correctAnswer": "Switch",
+        "explanation": "A Switch connects devices within a Local Area Network (LAN).",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does LAN stand for?",
+        "options": [
+            "Local Area Network",
+            "Large Area Network",
+            "Long Area Network",
+            "Low Area Network"
+        ],
+        "correctAnswer": "Local Area Network",
+        "explanation": "LAN stands for Local Area Network, covering a small area.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does WAN stand for?",
+        "options": [
+            "Wide Area Network",
+            "World Area Network",
+            "Web Area Network",
+            "Wireless Area Network"
+        ],
+        "correctAnswer": "Wide Area Network",
+        "explanation": "WAN stands for Wide Area Network, covering a large area.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does MAN stand for?",
+        "options": [
+            "Metropolitan Area Network",
+            "Main Area Network",
+            "Massive Area Network",
+            "Mini Area Network"
+        ],
+        "correctAnswer": "Metropolitan Area Network",
+        "explanation": "MAN covers a city or a large campus.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does IP stand for?",
+        "options": [
+            "Internet Protocol",
+            "Internal Protocol",
+            "International Protocol",
+            "Intranet Protocol"
+        ],
+        "correctAnswer": "Internet Protocol",
+        "explanation": "IP stands for Internet Protocol, handling addressing.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does TCP stand for?",
+        "options": [
+            "Transmission Control Protocol",
+            "Transfer Control Protocol",
+            "Text Control Protocol",
+            "Time Control Protocol"
+        ],
+        "correctAnswer": "Transmission Control Protocol",
+        "explanation": "TCP ensures reliable data transmission.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does UDP stand for?",
+        "options": [
+            "User Datagram Protocol",
+            "Used Data Protocol",
+            "Ultra Data Protocol",
+            "Universal Data Protocol"
+        ],
+        "correctAnswer": "User Datagram Protocol",
+        "explanation": "UDP is a connectionless, faster protocol but less reliable.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which protocol is connection-oriented?",
+        "options": [
+            "TCP",
+            "UDP",
+            "IP",
+            "ICMP"
+        ],
+        "correctAnswer": "TCP",
+        "explanation": "TCP establishes a connection before sending data.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which protocol is connectionless?",
+        "options": [
+            "UDP",
+            "TCP",
+            "FTP",
+            "SMTP"
+        ],
+        "correctAnswer": "UDP",
+        "explanation": "UDP sends packets without establishing a connection.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does HTTP stand for?",
+        "options": [
+            "HyperText Transfer Protocol",
+            "HighText Transfer Protocol",
+            "HyperText Test Protocol",
+            "HyperTransfer Text Protocol"
+        ],
+        "correctAnswer": "HyperText Transfer Protocol",
+        "explanation": "HTTP is the foundation of data communication for the World Wide Web.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Default port for HTTP?",
+        "options": [
+            "80",
+            "443",
+            "21",
+            "25"
+        ],
+        "correctAnswer": "80",
+        "explanation": "Port 80 is the standard port for HTTP traffic.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Default port for HTTPS?",
+        "options": [
+            "443",
+            "80",
+            "22",
+            "23"
+        ],
+        "correctAnswer": "443",
+        "explanation": "Port 443 is the standard port for secure HTTPS traffic.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does FTP stand for?",
+        "options": [
+            "File Transfer Protocol",
+            "Fast Transfer Protocol",
+            "File Test Protocol",
+            "Folder Transfer Protocol"
+        ],
+        "correctAnswer": "File Transfer Protocol",
+        "explanation": "FTP is used for transferring files over a network.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does DNS stand for?",
+        "options": [
+            "Domain Name System",
+            "Data Name System",
+            "Dynamic Name System",
+            "Digital Name System"
+        ],
+        "correctAnswer": "Domain Name System",
+        "explanation": "DNS translates domain names (google.com) to IP addresses.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What translates domain names to IP?",
+        "options": [
+            "DNS",
+            "DHCP",
+            "FTP",
+            "HTTP"
+        ],
+        "correctAnswer": "DNS",
+        "explanation": "DNS acts as the phonebook of the internet.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What identifies a device on a network?",
+        "options": [
+            "IP Address",
+            "Monitor ID",
+            "Keyboard ID",
+            "Mouse ID"
+        ],
+        "correctAnswer": "IP Address",
+        "explanation": "An IP Address acts as a unique ID for a device on a network.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Format of IPv4 address?",
+        "options": [
+            "xxx.xxx.xxx.xxx",
+            "xxx:xxx:xxx",
+            "xx-xx-xx",
+            "xxx/xxx"
+        ],
+        "correctAnswer": "xxx.xxx.xxx.xxx",
+        "explanation": "IPv4 uses dot-decimal notation (e.g., 192.168.1.1).",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "How many bits in IPv4?",
+        "options": [
+            "32",
+            "64",
+            "128",
+            "16"
+        ],
+        "correctAnswer": "32",
+        "explanation": "IPv4 addresses are 32-bit numbers.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "How many bits in IPv6?",
+        "options": [
+            "128",
+            "32",
+            "64",
+            "256"
+        ],
+        "correctAnswer": "128",
+        "explanation": "IPv6 addresses are 128-bit numbers.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Unique hardware address of a NIC?",
+        "options": [
+            "MAC Address",
+            "IP Address",
+            "Port Number",
+            "Socket"
+        ],
+        "correctAnswer": "MAC Address",
+        "explanation": "MAC Address is a unique physical address burned into the network card.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "How many layers in OSI model?",
+        "options": [
+            "7",
+            "5",
+            "4",
+            "6"
+        ],
+        "correctAnswer": "7",
+        "explanation": "The OSI model consists of 7 layers.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Layer 1 of OSI?",
+        "options": [
+            "Physical",
+            "Data Link",
+            "Network",
+            "Transport"
+        ],
+        "correctAnswer": "Physical",
+        "explanation": "The Physical Layer is the first layer, handling hardware transmission.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Layer 7 of OSI?",
+        "options": [
+            "Application",
+            "Presentation",
+            "Session",
+            "Physical"
+        ],
+        "correctAnswer": "Application",
+        "explanation": "The Application Layer is the top layer, closest to the end user.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Protocol used for email sending?",
+        "options": [
+            "SMTP",
+            "POP3",
+            "IMAP",
+            "HTTP"
+        ],
+        "correctAnswer": "SMTP",
+        "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending email.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Protocol used for email receiving?",
+        "options": [
+            "POP3",
+            "SMTP",
+            "FTP",
+            "SNMP"
+        ],
+        "correctAnswer": "POP3",
+        "explanation": "POP3 is used by email clients to retrieve email.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Device that boosts signal?",
+        "options": [
+            "Repeater",
+            "Hub",
+            "Cable",
+            "Connector"
+        ],
+        "correctAnswer": "Repeater",
+        "explanation": "A Repeater regenerates the signal to extend its range.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Private IP address range starts with?",
+        "options": [
+            "192.168",
+            "172.50",
+            "8.8",
+            "1.1"
+        ],
+        "correctAnswer": "192.168",
+        "explanation": "192.168.x.x is a common private IP range for home networks.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Network topology with a central node?",
+        "options": [
+            "Star",
+            "Bus",
+            "Ring",
+            "Mesh"
+        ],
+        "correctAnswer": "Star",
+        "explanation": "In Star topology, all nodes connect to a central Hub or Switch.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Network topology in a circle?",
+        "options": [
+            "Ring",
+            "Bus",
+            "Star",
+            "Tree"
+        ],
+        "correctAnswer": "Ring",
+        "explanation": "In Ring topology, each node connects to exactly two other nodes.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Most reliable topology?",
+        "options": [
+            "Mesh",
+            "Bus",
+            "Ring",
+            "Star"
+        ],
+        "correctAnswer": "Mesh",
+        "explanation": "Mesh topology is most reliable because of multiple redundant connections.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What is a Firewall?",
+        "options": [
+            "Security System",
+            "Heating System",
+            "Network Cable",
+            "Storage Device"
+        ],
+        "correctAnswer": "Security System",
+        "explanation": "A Firewall monitors and controls network traffic for security.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "A secure version of HTTP?",
+        "options": [
+            "HTTPS",
+            "HTTPs",
+            "SHTTP",
+            "HTTP-S"
+        ],
+        "correctAnswer": "HTTPS",
+        "explanation": "HTTPS is HTTP with encryption (SSL/TLS).",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does VPN stand for?",
+        "options": [
+            "Virtual Private Network",
+            "Visual Private Network",
+            "Vital Private Network",
+            "Virtual Public Network"
+        ],
+        "correctAnswer": "Virtual Private Network",
+        "explanation": "VPN creates a secure connection over a public network.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Tool to check connectivity?",
+        "options": [
+            "Ping",
+            "Poke",
+            "Check",
+            "Test"
+        ],
+        "correctAnswer": "Ping",
+        "explanation": "Ping sends packets to test reachability of a host.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Command to see IP configuration?",
+        "options": [
+            "ipconfig/ifconfig",
+            "showip",
+            "myip",
+            "netconf"
+        ],
+        "correctAnswer": "ipconfig/ifconfig",
+        "explanation": "'ipconfig' (Windows) or 'ifconfig' (Linux/Mac) shows network settings.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What provides internet access?",
+        "options": [
+            "ISP",
+            "USP",
+            "ASP",
+            "DSP"
+        ],
+        "correctAnswer": "ISP",
+        "explanation": "ISP stands for Internet Service Provider.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Wireless connectivity technology?",
+        "options": [
+            "Wi-Fi",
+            "Hi-Fi",
+            "Li-Fi",
+            "Sci-Fi"
+        ],
+        "correctAnswer": "Wi-Fi",
+        "explanation": "Wi-Fi uses radio waves to provide wireless high-speed internet.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Short range wireless?",
+        "options": [
+            "Bluetooth",
+            "Wi-Fi",
+            "Satellite",
+            "Fiber"
+        ],
+        "correctAnswer": "Bluetooth",
+        "explanation": "Bluetooth is designed for short-range communication between devices.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Fastest physical medium?",
+        "options": [
+            "Fiber Optic",
+            "Coaxial",
+            "Twisted Pair",
+            "Air"
+        ],
+        "correctAnswer": "Fiber Optic",
+        "explanation": "Fiber Optic cables transmit data using light, offering highest speeds.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "URL stands for?",
+        "options": [
+            "Uniform Resource Locator",
+            "Universal Resource Locator",
+            "Uniform Resource Link",
+            "Unified Resource Locator"
+        ],
+        "correctAnswer": "Uniform Resource Locator",
+        "explanation": "URL is the address of a resource on the web.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Standard network cable connector?",
+        "options": [
+            "RJ45",
+            "RJ11",
+            "USB",
+            "HDMI"
+        ],
+        "correctAnswer": "RJ45",
+        "explanation": "RJ45 is the standard connector for Ethernet cables.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Error detection mechanism?",
+        "options": [
+            "Checksum",
+            "Sumcheck",
+            "Addcheck",
+            "Bitcheck"
+        ],
+        "correctAnswer": "Checksum",
+        "explanation": "Checksum is a value used to verify the integrity of data.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data unit in Network layer?",
+        "options": [
+            "Packet",
+            "Frame",
+            "Segment",
+            "Bit"
+        ],
+        "correctAnswer": "Packet",
+        "explanation": "The unit of data at the Network Layer is called a Packet.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data unit in Data link layer?",
+        "options": [
+            "Frame",
+            "Packet",
+            "Segment",
+            "Bit"
+        ],
+        "correctAnswer": "Frame",
+        "explanation": "The unit of data at the Data Link Layer is called a Frame.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Network within a building?",
+        "options": [
+            "LAN",
+            "WAN",
+            "MAN",
+            "PAN"
+        ],
+        "correctAnswer": "LAN",
+        "explanation": "A Local Area Network (LAN) usually covers a single building.",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Internet is an example of?",
+        "options": [
+            "WAN",
+            "LAN",
+            "MAN",
+            "PAN"
+        ],
+        "correctAnswer": "WAN",
+        "explanation": "The Internet is the largest Wide Area Network (WAN).",
+        "category": "CN",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Loopback IP address?",
+        "options": [
+            "127.0.0.1",
+            "192.168.1.1",
+            "0.0.0.0",
+            "255.255.255.0"
+        ],
+        "correctAnswer": "127.0.0.1",
+        "explanation": "127.0.0.1 is the localhost loopback address.",
+        "category": "CN",
+        "difficulty": "Easy"
+    }
+]

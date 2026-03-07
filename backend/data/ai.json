@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "What does AI stand for?",
+        "options": [
+            "Artificial Intelligence",
+            "Auto Intelligence",
+            "Advanced Intelligence",
+            "Active Intelligence"
+        ],
+        "correctAnswer": "Artificial Intelligence",
+        "explanation": "AI stands for Artificial Intelligence.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Father of AI?",
+        "options": [
+            "Alan Turing",
+            "Charles Babbage",
+            "Bill Gates",
+            "Steve Jobs"
+        ],
+        "correctAnswer": "Alan Turing",
+        "explanation": "Alan Turing is widely considered the father of theoretical computer science and AI.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Test for machine intelligence?",
+        "options": [
+            "Turing Test",
+            "IQ Test",
+            "Speed Test",
+            "Memory Test"
+        ],
+        "correctAnswer": "Turing Test",
+        "explanation": "The Turing Test determines a machine's ability to exhibit intelligent behavior.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Machine mimicking human brain?",
+        "options": [
+            "Neural Network",
+            "Database",
+            "Server",
+            "Router"
+        ],
+        "correctAnswer": "Neural Network",
+        "explanation": "Neural Networks are modeled after the human brain's neural connections.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "AI dealing with language?",
+        "options": [
+            "NLP",
+            "Robotics",
+            "Vision",
+            "Planning"
+        ],
+        "correctAnswer": "NLP",
+        "explanation": "Natural Language Processing (NLP) focuses on human language.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "AI dealing with images?",
+        "options": [
+            "Computer Vision",
+            "NLP",
+            "Speech",
+            "Audio"
+        ],
+        "correctAnswer": "Computer Vision",
+        "explanation": "Computer Vision enables computers to interpret visual information.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Weak AI is also called?",
+        "options": [
+            "Narrow AI",
+            "Strong AI",
+            "Super AI",
+            "General AI"
+        ],
+        "correctAnswer": "Narrow AI",
+        "explanation": "Weak AI, or Narrow AI, is designed for a specific task.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Strong AI is also called?",
+        "options": [
+            "AGI",
+            "Narrow AI",
+            "Weak AI",
+            "Basic AI"
+        ],
+        "correctAnswer": "AGI",
+        "explanation": "Strong AI, or Artificial General Intelligence (AGI), can perform any intellectual task.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Siri and Alexa are examples of?",
+        "options": [
+            "Narrow AI",
+            "Strong AI",
+            "Super AI",
+            "General AI"
+        ],
+        "correctAnswer": "Narrow AI",
+        "explanation": "They are specialized assistants, hence Narrow AI.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Self driving cars use?",
+        "options": [
+            "AI & Computer Vision",
+            "Only GPS",
+            "Only Maps",
+            "Manual Control"
+        ],
+        "correctAnswer": "AI & Computer Vision",
+        "explanation": "Autonomous vehicles rely on AI and Computer Vision to navigate.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Robot capable of human tasks?",
+        "options": [
+            "Humanoid",
+            "Drone",
+            "Arm",
+            "Toy"
+        ],
+        "correctAnswer": "Humanoid",
+        "explanation": "Humanoid robots are designed to look and act like humans.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Famous AI robot?",
+        "options": [
+            "Sophia",
+            "Alexa",
+            "Siri",
+            "Cortana"
+        ],
+        "correctAnswer": "Sophia",
+        "explanation": "Sophia is a social humanoid robot developed by Hanson Robotics.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "AI that plays Chess?",
+        "options": [
+            "Deep Blue",
+            "Watson",
+            "AlphaGo",
+            "Siri"
+        ],
+        "correctAnswer": "Deep Blue",
+        "explanation": "Deep Blue was the first computer to beat a reigning world chess champion.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "AI that plays Go?",
+        "options": [
+            "AlphaGo",
+            "Deep Blue",
+            "Watson",
+            "Alexa"
+        ],
+        "correctAnswer": "AlphaGo",
+        "explanation": "AlphaGo is the first computer program to defeat a professional human Go player.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "IBM's question answering AI?",
+        "options": [
+            "Watson",
+            "Deep Blue",
+            "AlphaGo",
+            "Siri"
+        ],
+        "correctAnswer": "Watson",
+        "explanation": "IBM Watson is known for competing on Jeopardy!",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Goal of AI?",
+        "options": [
+            "Simulate intelligence",
+            "Store data",
+            "Send email",
+            "Print documents"
+        ],
+        "correctAnswer": "Simulate intelligence",
+        "explanation": " The primary goal is to create systems that can simulate human intelligence.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Expert System relies on?",
+        "options": [
+            "Knowledge Base & Inference Engine",
+            "Random Guess",
+            "User Input only",
+            "Database"
+        ],
+        "correctAnswer": "Knowledge Base & Inference Engine",
+        "explanation": "Expert systems use specific knowledge and reasoning rules.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Knowledge Base stores?",
+        "options": [
+            "Facts & Rules",
+            "Images",
+            "Videos",
+            "Music"
+        ],
+        "correctAnswer": "Facts & Rules",
+        "explanation": "A knowledge base contains facts and rules for problem solving.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Inference Engine does?",
+        "options": [
+            "Reasoning",
+            "Storage",
+            "Input",
+            "Output"
+        ],
+        "correctAnswer": "Reasoning",
+        "explanation": "The inference engine applies logical rules to the knowledge base.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Fuzzy Logic deals with?",
+        "options": [
+            "Partial Truth (Degrees)",
+            "Absolute Truth",
+            "Binary Logic",
+            "Falsehood"
+        ],
+        "correctAnswer": "Partial Truth (Degrees)",
+        "explanation": "Fuzzy logic computes 'degrees of truth' rather than boolean true/false.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Genetic Algorithms inspired by?",
+        "options": [
+            "Evolution",
+            "Brain",
+            "Physics",
+            "Chemistry"
+        ],
+        "correctAnswer": "Evolution",
+        "explanation": "Genetic algorithms mimic the process of natural selection.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Agent in AI is?",
+        "options": [
+            "Entity that perceives and acts",
+            "Spy",
+            "User",
+            "Programmer"
+        ],
+        "correctAnswer": "Entity that perceives and acts",
+        "explanation": "An agent perceives its environment via sensors and acts upon it.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Effectors in AI agent?",
+        "options": [
+            "Act on environment",
+            "Sense environment",
+            "Think",
+            "Store"
+        ],
+        "correctAnswer": "Act on environment",
+        "explanation": "Effectors are mechanisms (legs, wheels) used to act on the environment.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Sensors in AI agent?",
+        "options": [
+            "Perceive environment",
+            "Act",
+            "Move",
+            "Speak"
+        ],
+        "correctAnswer": "Perceive environment",
+        "explanation": "Sensors are used to gather information from the environment.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Chatbot is interface for?",
+        "options": [
+            "Conversational AI",
+            "Visual AI",
+            "Motor AI",
+            "Physical AI"
+        ],
+        "correctAnswer": "Conversational AI",
+        "explanation": "Chatbots provide a conversational interface for AI.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Sentiment Analysis determines?",
+        "options": [
+            "Emotion/Tone",
+            "Language",
+            "Grammar",
+            "Spelling"
+        ],
+        "correctAnswer": "Emotion/Tone",
+        "explanation": "Sentiment analysis identifies the emotional tone behind a body of text.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "First law of robotics (Asimov)?",
+        "options": [
+            "Do not harm humans",
+            "Obey humans",
+            "Protect self",
+            "Do homework"
+        ],
+        "correctAnswer": "Do not harm humans",
+        "explanation": "A robot may not injure a human being.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Singularity in AI means?",
+        "options": [
+            "AI surpasses human intelligence",
+            "AI fails",
+            "AI stops",
+            "One AI"
+        ],
+        "correctAnswer": "AI surpasses human intelligence",
+        "explanation": "Singularity is the hypothetical point when AI growth becomes uncontrollable.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Machine Learning is subset of?",
+        "options": [
+            "AI",
+            "Data Science",
+            "Robotics",
+            "Web Dev"
+        ],
+        "correctAnswer": "AI",
+        "explanation": "Machine Learning is a field of study within Artificial Intelligence.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Deep Learning is subset of?",
+        "options": [
+            "Machine Learning",
+            "Robotics",
+            "Expert Systems",
+            "Fuzzy Logic"
+        ],
+        "correctAnswer": "Machine Learning",
+        "explanation": "Deep Learning is a specialized method of Machine Learning.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Application of AI in medicine?",
+        "options": [
+            "Disease Diagnosis",
+            "Billing",
+            "Cleaning",
+            "Parking"
+        ],
+        "correctAnswer": "Disease Diagnosis",
+        "explanation": "AI assists in diagnosing diseases from medical data.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Application of AI in finance?",
+        "options": [
+            "Fraud Detection",
+            "Printing",
+            "Mailing",
+            "Typing"
+        ],
+        "correctAnswer": "Fraud Detection",
+        "explanation": "AI detects unusual patterns associated with financial fraud.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Application of AI in transport?",
+        "options": [
+            "Self Driving Cars",
+            "Manual Cars",
+            "Bicycles",
+            "Walking"
+        ],
+        "correctAnswer": "Self Driving Cars",
+        "explanation": "Self-driving cars are a major application of AI in transportation.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Face recognition uses?",
+        "options": [
+            "Biometrics",
+            "Passwords",
+            "Keys",
+            "Cards"
+        ],
+        "correctAnswer": "Biometrics",
+        "explanation": "Face recognition is a type of biometric authentication.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Voice assistant on iPhone?",
+        "options": [
+            "Siri",
+            "Alexa",
+            "Google",
+            "Bixby"
+        ],
+        "correctAnswer": "Siri",
+        "explanation": "Siri is Apple's voice-controlled personal assistant.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Voice assistant on Android?",
+        "options": [
+            "Google Assistant",
+            "Siri",
+            "Alexa",
+            "Cortana"
+        ],
+        "correctAnswer": "Google Assistant",
+        "explanation": "Google Assistant is the standard voice assistant on Android.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Voice assistant by Amazon?",
+        "options": [
+            "Alexa",
+            "Siri",
+            "Google",
+            "Bixby"
+        ],
+        "correctAnswer": "Alexa",
+        "explanation": "Alexa is Amazon's virtual assistant.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Recommendation system example?",
+        "options": [
+            "Netflix/YouTube suggestions",
+            "Calculator",
+            "Clock",
+            "Calendar"
+        ],
+        "correctAnswer": "Netflix/YouTube suggestions",
+        "explanation": "Netflix and YouTube use AI to recommend content.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Search algorithm in AI?",
+        "options": [
+            "A*",
+            "Sort",
+            "Merge",
+            "Bubble"
+        ],
+        "correctAnswer": "A*",
+        "explanation": "A* (A-Star) is a popular pathfinding and graph traversal algorithm.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Heuristic means?",
+        "options": [
+            "Rule of thumb / Estimate",
+            "Exact calculation",
+            "Random guess",
+            "Proof"
+        ],
+        "correctAnswer": "Rule of thumb / Estimate",
+        "explanation": "A heuristic is a mental shortcut or 'rule of thumb'.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Minimax algorithm used in?",
+        "options": [
+            "Game Theory (Chess/TicTacToe)",
+            "Sorting",
+            "Searching",
+            "Database"
+        ],
+        "correctAnswer": "Game Theory (Chess/TicTacToe)",
+        "explanation": "Minimax minimizes the possible loss for a worst case (maximum loss) scenario.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Breadth First Search (BFS) uses?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Tree",
+            "Graph"
+        ],
+        "correctAnswer": "Queue",
+        "explanation": "BFS uses a Queue data structure.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Depth First Search (DFS) uses?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Tree",
+            "Graph"
+        ],
+        "correctAnswer": "Stack",
+        "explanation": "DFS uses a Stack data structure.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Knowledge Representation uses?",
+        "options": [
+            "Logic/Frames",
+            "Images",
+            "Audio",
+            "Video"
+        ],
+        "correctAnswer": "Logic/Frames",
+        "explanation": "Logic and frames are methods to represent knowledge in AI.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Predicate Logic uses?",
+        "options": [
+            "Quantifiers (All/Exists)",
+            "Numbers",
+            "Colors",
+            "Shapes"
+        ],
+        "correctAnswer": "Quantifiers (All/Exists)",
+        "explanation": "Predicate logic uses quantifiers like Universal (All) and Existential (Exists).",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Ocr stands for?",
+        "options": [
+            "Optical Character Recognition",
+            "Open Char Reader",
+            "Optic Code Reader",
+            "Only Char Read"
+        ],
+        "correctAnswer": "Optical Character Recognition",
+        "explanation": "OCR converts images of typed text into machine-encoded text.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data Mining vs AI?",
+        "options": [
+            "Pattern finding vs Intelligence",
+            "Same",
+            "Opposite",
+            "Nothing"
+        ],
+        "correctAnswer": "Pattern finding vs Intelligence",
+        "explanation": "Data mining finds patterns; AI simulates intelligence.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Big Data in AI?",
+        "options": [
+            "Fuel for AI",
+            "Outcome of AI",
+            "Enemy of AI",
+            "Waste"
+        ],
+        "correctAnswer": "Fuel for AI",
+        "explanation": "Big Data provides the massive datasets needed to train effective AI models.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Cloud AI provider example?",
+        "options": [
+            "AWS/Azure/GCP",
+            "Localhost",
+            "Pendrive",
+            "CD"
+        ],
+        "correctAnswer": "AWS/Azure/GCP",
+        "explanation": "Major cloud providers offer extensive AI services.",
+        "category": "AI",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Ethics in AI?",
+        "options": [
+            "Fairness/Privacy",
+            "Speed",
+            "Cost",
+            "Size"
+        ],
+        "correctAnswer": "Fairness/Privacy",
+        "explanation": "AI ethics concerns issues like fairness, privacy, and accountability.",
+        "category": "AI",
+        "difficulty": "Easy"
+    }
+]

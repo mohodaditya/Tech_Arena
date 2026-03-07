@@ -1,0 +1,652 @@
+[
+    {
+        "questionText": "What does DBMS stand for?",
+        "options": [
+            "Data Base Manage System",
+            "Database Management System",
+            "Data Basic Management System",
+            "Database Master System"
+        ],
+        "correctAnswer": "Database Management System",
+        "explanation": "DBMS stands for Database Management System, software to manage databases.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What is a database?",
+        "options": [
+            "Organized collection of data",
+            "Network of computers",
+            "Operating System",
+            "Programming Language"
+        ],
+        "correctAnswer": "Organized collection of data",
+        "explanation": "A database is a structured collection of data for easy access and management.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What is a Relation in DBMS?",
+        "options": [
+            "Key",
+            "Table",
+            "Row",
+            "Data Type"
+        ],
+        "correctAnswer": "Table",
+        "explanation": "In Relational DBMS, a 'Relation' is the formal term for a Table.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What is a Tuples in DBMS?",
+        "options": [
+            "Column",
+            "Row",
+            "Table",
+            "Key"
+        ],
+        "correctAnswer": "Row",
+        "explanation": "A 'Tuple' refers to a single row or record in a database table.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What is an Attribute in DBMS?",
+        "options": [
+            "Row",
+            "Table",
+            "Column",
+            "Key"
+        ],
+        "correctAnswer": "Column",
+        "explanation": "An 'Attribute' represents a column or property of a table.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Full form of SQL?",
+        "options": [
+            "Structured Query Language",
+            "Simple Query Language",
+            "Standard Query Language",
+            "System Query Language"
+        ],
+        "correctAnswer": "Structured Query Language",
+        "explanation": "SQL stands for Structured Query Language, the standard for relational databases.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which command is used to fetch data?",
+        "options": [
+            "GET",
+            "SELECT",
+            "FETCH",
+            "PULL"
+        ],
+        "correctAnswer": "SELECT",
+        "explanation": "The SELECT statement is used to retrieve data from a database.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which command is used to add data?",
+        "options": [
+            "ADD",
+            "INSERT",
+            "PUT",
+            "CREATE"
+        ],
+        "correctAnswer": "INSERT",
+        "explanation": "The INSERT statement adds new rows of data to a table.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which command is used to update data?",
+        "options": [
+            "CHANGE",
+            "MODIFY",
+            "UPDATE",
+            "EDIT"
+        ],
+        "correctAnswer": "UPDATE",
+        "explanation": "The UPDATE statement modifies existing data in a table.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which command is used to delete data?",
+        "options": [
+            "REMOVE",
+            "ERASE",
+            "DELETE",
+            "DROP"
+        ],
+        "correctAnswer": "DELETE",
+        "explanation": "The DELETE statement removes specific rows from a table.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What allows a column to be empty?",
+        "options": [
+            "NOT NULL",
+            "NULL",
+            "EMPTY",
+            "VOID"
+        ],
+        "correctAnswer": "NULL",
+        "explanation": "NULL is a special marker used to indicate that a data value does not exist.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Uniquely identifies a record in a table?",
+        "options": [
+            "Foreign Key",
+            "Primary Key",
+            "Unique Key",
+            "Super Key"
+        ],
+        "correctAnswer": "Primary Key",
+        "explanation": "A Primary Key uniquely identifies each record in a table.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Links two tables together?",
+        "options": [
+            "Primary Key",
+            "Foreign Key",
+            "Super Key",
+            "Candidate Key"
+        ],
+        "correctAnswer": "Foreign Key",
+        "explanation": "A Foreign Key is a field that links to the Primary Key of another table.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Removes a table completely?",
+        "options": [
+            "DELETE",
+            "TRUNCATE",
+            "DROP",
+            "REMOVE"
+        ],
+        "correctAnswer": "DROP",
+        "explanation": "DROP TABLE deletes the table definition and all its data.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Removes all rows but keeps the table?",
+        "options": [
+            "DELETE",
+            "DROP",
+            "TRUNCATE",
+            "CLEAR"
+        ],
+        "correctAnswer": "TRUNCATE",
+        "explanation": "TRUNCATE quickly removes all records but keeps the table structure.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which is a DDL command?",
+        "options": [
+            "SELECT",
+            "INSERT",
+            "CREATE",
+            "UPDATE"
+        ],
+        "correctAnswer": "CREATE",
+        "explanation": "CREATE is a Data Definition Language (DDL) command used to define structure.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Which is a DML command?",
+        "options": [
+            "CREATE",
+            "ALTER",
+            "INSERT",
+            "DROP"
+        ],
+        "correctAnswer": "INSERT",
+        "explanation": "INSERT is a Data Manipulation Language (DML) command used to manage data.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Ensures all or nothing transaction?",
+        "options": [
+            "Atomicity",
+            "Consistency",
+            "Isolation",
+            "Durability"
+        ],
+        "correctAnswer": "Atomicity",
+        "explanation": "Atomicity guarantees that a transaction is either fully completed or not at all.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Ensures data validity?",
+        "options": [
+            "Atomicity",
+            "Consistency",
+            "Isolation",
+            "Durability"
+        ],
+        "correctAnswer": "Consistency",
+        "explanation": "Consistency ensures the database remains in a valid state after a transaction.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Transactions are independent?",
+        "options": [
+            "Atomicity",
+            "Consistency",
+            "Isolation",
+            "Durability"
+        ],
+        "correctAnswer": "Isolation",
+        "explanation": "Isolation ensures that concurrent transactions do not interfere with each other.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Saved data persists after power loss?",
+        "options": [
+            "Atomicity",
+            "Consistency",
+            "Isolation",
+            "Durability"
+        ],
+        "correctAnswer": "Durability",
+        "explanation": "Durability guarantees that committed data is saved permanently.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Pattern matching operator in SQL?",
+        "options": [
+            "=",
+            "MATCH",
+            "LIKE",
+            "SAME"
+        ],
+        "correctAnswer": "LIKE",
+        "explanation": "The LIKE operator is used in a WHERE clause to search for a specified pattern.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Symbol for all columns?",
+        "options": [
+            "%",
+            "$",
+            "*",
+            "&"
+        ],
+        "correctAnswer": "*",
+        "explanation": "The asterisk (*) acts as a wildcard to select all columns.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Sorts the result?",
+        "options": [
+            "GROUP BY",
+            "ORDER BY",
+            "SORT BY",
+            "ALIGN BY"
+        ],
+        "correctAnswer": "ORDER BY",
+        "explanation": "ORDER BY is used to sort the result-set in ascending or descending order.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Aggregates data?",
+        "options": [
+            "ORDER BY",
+            "GROUP BY",
+            "AGGREGATE BY",
+            "COLLECT BY"
+        ],
+        "correctAnswer": "GROUP BY",
+        "explanation": "GROUP BY groups rows that have the same values into summary rows.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Counts number of rows?",
+        "options": [
+            "SUM()",
+            "TOTAL()",
+            "COUNT()",
+            "NUM()"
+        ],
+        "correctAnswer": "COUNT()",
+        "explanation": "COUNT() is an aggregate function that returns the number of rows.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Calculates average?",
+        "options": [
+            "AVG()",
+            "MEAN()",
+            "AVERAGE()",
+            "MEDIAN()"
+        ],
+        "correctAnswer": "AVG()",
+        "explanation": "AVG() returns the average value of a numeric column.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Calculates total?",
+        "options": [
+            "TOTAL()",
+            "COUNT()",
+            "ADD()",
+            "SUM()"
+        ],
+        "correctAnswer": "SUM()",
+        "explanation": "SUM() returns the total sum of a numeric column.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What does ER diagram stand for?",
+        "options": [
+            "Entity Real Diagram",
+            "Entity Relationship Diagram",
+            "Easy Relation Diagram",
+            "Entity Row Diagram"
+        ],
+        "correctAnswer": "Entity Relationship Diagram",
+        "explanation": "ER Diagram stands for Entity Relationship Diagram, used for database design.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Rectangle in ER diagram represents?",
+        "options": [
+            "Attribute",
+            "Relationship",
+            "Entity",
+            "Key"
+        ],
+        "correctAnswer": "Entity",
+        "explanation": "A Rectangle typically represents an Entity (e.g., Student, Car).",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Oval in ER diagram represents?",
+        "options": [
+            "Entity",
+            "Relationship",
+            "Attribute",
+            "Key"
+        ],
+        "correctAnswer": "Attribute",
+        "explanation": "An Oval represents an Attribute (e.g., Name, Age).",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Diamond in ER diagram represents?",
+        "options": [
+            "Entity",
+            "Attribute",
+            "Relationship",
+            "Key"
+        ],
+        "correctAnswer": "Relationship",
+        "explanation": "A Diamond represents a Relationship between entities.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "No duplicate rows allowed?",
+        "options": [
+            "DISTINCT",
+            "UNIQUE",
+            "DIFFERENT",
+            "SINGLE"
+        ],
+        "correctAnswer": "DISTINCT",
+        "explanation": "SELECT DISTINCT returns only distinct (different) values.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Constraint for no duplicate values?",
+        "options": [
+            "PRIMARY",
+            "FOREIGN",
+            "UNIQUE",
+            "NULL"
+        ],
+        "correctAnswer": "UNIQUE",
+        "explanation": "The UNIQUE constraint ensures that all values in a column are different.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Constraint to checking condition?",
+        "options": [
+            "TEST",
+            "IF",
+            "CHECK",
+            "VERIFY"
+        ],
+        "correctAnswer": "CHECK",
+        "explanation": "The CHECK constraint ensures that the values in a column satisfy a specific condition.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Combines rows from two tables?",
+        "options": [
+            "MERGE",
+            "JOIN",
+            "COMBINE",
+            "LINK"
+        ],
+        "correctAnswer": "JOIN",
+        "explanation": "A JOIN clause is used to combine rows from two or more tables.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Join returns only matching rows?",
+        "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL JOIN"
+        ],
+        "correctAnswer": "INNER JOIN",
+        "explanation": "INNER JOIN selects records that have matching values in both tables.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Join returns all from left table?",
+        "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL JOIN"
+        ],
+        "correctAnswer": "LEFT JOIN",
+        "explanation": "LEFT JOIN returns all records from the left table, and matched records from the right.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Command to undo transaction?",
+        "options": [
+            "COMMIT",
+            "ROLLBACK",
+            "SAVE",
+            "RETURN"
+        ],
+        "correctAnswer": "ROLLBACK",
+        "explanation": "ROLLBACK restores the database to absolute last committed state.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Command to save transaction?",
+        "options": [
+            "SAVE",
+            "KEEP",
+            "COMMIT",
+            "DONE"
+        ],
+        "correctAnswer": "COMMIT",
+        "explanation": "COMMIT saves all the transactions to the database permanently.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Type of NoSQL database?",
+        "options": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "Oracle"
+        ],
+        "correctAnswer": "MongoDB",
+        "explanation": "MongoDB is a popular document-oriented NoSQL database.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Data in MongoDB is stored as?",
+        "options": [
+            "Tables",
+            "Documents",
+            "Rows",
+            "Sheets"
+        ],
+        "correctAnswer": "Documents",
+        "explanation": "MongoDB stores data in JSON-like records called Documents.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Format of MongoDB documents?",
+        "options": [
+            "XML",
+            "HTML",
+            "JSON/BSON",
+            "CSV"
+        ],
+        "correctAnswer": "JSON/BSON",
+        "explanation": "Documents are stored in BSON (Binary JSON) format.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "What specifies column data type?",
+        "options": [
+            "Schema",
+            "View",
+            "Index",
+            "Trigger"
+        ],
+        "correctAnswer": "Schema",
+        "explanation": "The Schema defines the structure and data types of the database.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Virtual table based on query?",
+        "options": [
+            "Schema",
+            "Index",
+            "Trigger",
+            "View"
+        ],
+        "correctAnswer": "View",
+        "explanation": "A View is a virtual table based on the result-set of an SQL statement.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Speeds up data retrieval?",
+        "options": [
+            "Trigger",
+            "View",
+            "Index",
+            "Key"
+        ],
+        "correctAnswer": "Index",
+        "explanation": "An Index is a data structure used to speed up searching (data retrieval).",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Automated action on database event?",
+        "options": [
+            "Index",
+            "View",
+            "Trigger",
+            "Procedure"
+        ],
+        "correctAnswer": "Trigger",
+        "explanation": "A Trigger is a set of instructions that executes automatically upon an event.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Process of organizing data?",
+        "options": [
+            "Normalization",
+            "Optimization",
+            "Compilation",
+            "Execution"
+        ],
+        "correctAnswer": "Normalization",
+        "explanation": "Normalization is the process of organizing data to reduce redundancy.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Duplicate data is called?",
+        "options": [
+            "Redundancy",
+            "Dependency",
+            "Consistency",
+            "Accuracy"
+        ],
+        "correctAnswer": "Redundancy",
+        "explanation": "Data Redundancy occurs when the same piece of data is held in two separate places.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    },
+    {
+        "questionText": "Highest level of abstraction?",
+        "options": [
+            "Physical",
+            "Logical",
+            "View",
+            "Internal"
+        ],
+        "correctAnswer": "View",
+        "explanation": "The View (External) Level is the highest level of abstraction, closest to user.",
+        "category": "DBMS",
+        "difficulty": "Easy"
+    }
+]
