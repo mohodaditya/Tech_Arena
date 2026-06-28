@@ -36,14 +36,19 @@ app.use('/api/leaderboard', leaderboardRoutes);
 app.use('/api/score', scoreRoutes);
 
 const path = require("path");
+const fs = require("fs");
 
-// Serve frontend static files
-app.use(express.static(path.join(__dirname, "../frontend/dist")));
-
-// Catch-all route (important)
-app.get("*path", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "../frontend/dist", "index.html"));
-});
+const frontendDistPath = path.join(__dirname, "../frontend/dist");
+if (fs.existsSync(frontendDistPath)) {
+  app.use(express.static(frontendDistPath));
+  app.get("*path", (req, res) => {
+    res.sendFile(path.resolve(frontendDistPath, "index.html"));
+  });
+} else {
+  app.get("/", (req, res) => {
+    res.send("Tech Arena API is running...");
+  });
+}
 
 const PORT = process.env.PORT || 5000;
 
