@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CodeEditor from '../components/CodeEditor';
 import { useUser } from '../context/UserContext';
 
-const API_BASE = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/dsa`;
+const API_BASE = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/dsa`;
 
 // Render basic markdown: **bold**, `code`, \n
 const renderDescription = (text) => {

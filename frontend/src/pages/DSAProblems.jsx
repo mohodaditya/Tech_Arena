@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Code2, ArrowRight, BookOpen, Trophy, Loader2 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 
-const API_BASE = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/dsa`;
+const API_BASE = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/dsa`;
 
 const DSAProblems = () => {
     const [problems, setProblems] = useState([]);

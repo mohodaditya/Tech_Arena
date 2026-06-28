@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const DSAProblem = require('./models/DSAProblem');
 const dsaProblems = require('./data/dsaProblems.json');
 
-dotenv.config();
+dotenv.config({ override: true });
 
 const seedDSA = async () => {
     try {

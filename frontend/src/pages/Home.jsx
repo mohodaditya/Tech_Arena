@@ -89,7 +89,7 @@ const Home = () => {
   useEffect(() => {
     const fetchLeaderboard = async () => {
       try {
-        const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/leaderboard`);
+        const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/leaderboard`);
         if (response.ok) {
           const data = await response.json();
           setLeaderboardData(data);

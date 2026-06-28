@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 
 // Load environment variables FIRST before requiring other files
-dotenv.config();
+dotenv.config({ override: true });
 
 const cors = require('cors');
 const passport = require('passport');
@@ -35,11 +35,15 @@ app.use('/api/dsa', dsaRoutes);
 app.use('/api/leaderboard', leaderboardRoutes);
 app.use('/api/score', scoreRoutes);
 
-// Root Route (Basic check)
-app.get('/', (req, res) => {
-    res.send('Tech Arena API is running...');
-});
+const path = require("path");
 
+// Serve frontend static files
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
+// Catch-all route (important)
+app.get("*path", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "../frontend/dist", "index.html"));
+});
 
 const PORT = process.env.PORT || 5000;
 

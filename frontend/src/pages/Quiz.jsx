@@ -39,7 +39,7 @@ const Quiz = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        let url = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/questions`;
+        let url = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/questions`;
 
         // If specific category, append query param
         if (category !== 'random') {

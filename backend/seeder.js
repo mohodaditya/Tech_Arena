@@ -5,7 +5,7 @@ const path = require('path');
 const connectDB = require('./config/db');
 const Question = require('./models/Question');
 
-dotenv.config();
+dotenv.config({ override: true });
 
 connectDB();
 
